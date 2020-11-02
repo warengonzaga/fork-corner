@@ -1,0 +1,29 @@
+{
+  "name": "fork-corner",
+  "version": "1.0.0-alpha.1",
+  "description": "A modern and global open source fork corner label for your project's landing page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarenGonzaga/fork-corner.git"
+  },
+  "keywords": [
+    "fork",
+    "corner",
+    "github",
+    "bitbucket",
+    "gitlab",
+    "label",
+    "css",
+    "javascript"
+  ],
+  "author": "Waren Gonzaga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WarenGonzaga/fork-corner/issues"
+  },
+  "homepage": "https://github.com/WarenGonzaga/fork-corner#readme"
+}
