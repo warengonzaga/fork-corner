@@ -26,8 +26,16 @@
     "url": "https://github.com/WarenGonzaga/fork-corner/issues"
   },
   "homepage": "https://github.com/WarenGonzaga/fork-corner#readme",
+  "github": "https://github.com/WarenGonzaga/fork-corner",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.1.0"
+    "gulp-header": "^2.0.9",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sass-lint": "^1.4.0",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "gulp-clean": "^0.4.0"
   }
 }
