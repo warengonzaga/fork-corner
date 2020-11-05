@@ -98,6 +98,6 @@ function demo() {
 }
 
 // gulp process
-exports.default = series(lintCSS, compile, minify, copyright, demo);
+exports.default = series(lintCSS, cleanBuild, compile, minify, copyright, demo);
 exports.dev = devBuild;
 exports.clean = cleanBuild;
