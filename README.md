@@ -2,6 +2,8 @@
 
 A modern and global open source fork corner label for your project's landing page.
 
+[![IssueHunt](https://issuehunt.io/static/embed/issuehunt-button-v1.svg)](https://issuehunt.io/r/WarenGonzaga/fork-corner)
+
 ## Features
 
 ...
@@ -40,11 +42,11 @@ Wanna see other projects I made? Join today!
 
 [![Community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner2)](https://discord.io/warengonzaga) [![Tracker CLI](https://discordapp.com/api/guilds/694612151444439081/widget.png?style=banner2)](https://discord.io/trackercli)
 
-## Donate or Support
+## Donate, Support or Fund
 
-If you love this project please consider to support the development by means of coffee. I spend and waste my time just to save your time! Be a sponsor or backer of this project today. Just a cup of coffee!
+If you love this project please consider to donate or support the development by means of coffee. You may also fund this project to maintain active and close more issues. Just a cup of coffee is enough to appreciate our hardwork.
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=for-the-badge)](https://paypal.me/warengonzagaofficial) [![Support](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-orange.svg?style=for-the-badge)](https://buymeacoff.ee/warengonzaga)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=for-the-badge)](https://paypal.me/warengonzagaofficial) [![Support](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-orange.svg?style=for-the-badge)](https://buymeacoff.ee/warengonzaga) [![Fund](https://img.shields.io/badge/Fund-IssueHunt-%2300A156.svg?style=for-the-badge)](https://issuehunt.io/r/WarenGonzaga/buymeacoffee.js)
 
 ## License
 
