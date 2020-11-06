@@ -1,6 +1,6 @@
 # Fork Corner [![Developed by Waren Gonzaga](https://img.shields.io/badge/Developed%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=for-the-badge)](https://github.com/warengonzaga)
 
-![Version](https://img.shields.io/github/release/WarenGonzaga/fork-corner.svg?style=for-the-badge) ![Stars](https://img.shields.io/github/stars/WarenGonzaga/fork-corner.svg?style=for-the-badge) ![Size](https://img.shields.io/github/size/warengonzaga/fork-corner/dist/index.js?color=green&style=for-the-badge) ![NPM](https://img.shields.io/npm/dm/fork-corner?color=red&style=for-the-badge) ![License](https://img.shields.io/github/license/WarenGonzaga/fork-corner.svg?style=for-the-badge)
+![Version](https://img.shields.io/github/release/WarenGonzaga/fork-corner.svg?style=for-the-badge) ![Stars](https://img.shields.io/github/stars/WarenGonzaga/fork-corner.svg?style=for-the-badge) ![Size](https://img.shields.io/github/repo-size/warengonzaga/fork-corner?color=green&style=for-the-badge) ![NPM](https://img.shields.io/npm/dm/fork-corner?color=red&style=for-the-badge) ![License](https://img.shields.io/github/license/WarenGonzaga/fork-corner.svg?style=for-the-badge)
 
 A modern and global open source fork corner label for your project's landing page.
 
@@ -8,7 +8,7 @@ A modern and global open source fork corner label for your project's landing pag
 
 ## What is Fork Corner
 
-This is my modern approach to the very old style of adding a "Fork me on Github" label.
+A modern approach to the old style of adding "Fork Me" ribbon or label in a open source project's landing page.
 
 ## Features
 
@@ -51,9 +51,11 @@ This is my modern approach to the very old style of adding a "Fork me on Github"
 
 <!-- markdownlint-enable MD033 -->
 
+---
+
 ## Installation
 
-Install with npm:
+Install with [npm](https://www.npmjs.com/package/fork-corner):
 
 <!-- markdownlint-disable MD014 -->
 
@@ -63,9 +65,56 @@ $ npm i fork-corner --save
 
 <!-- markdownlint-enable MD014 -->
 
+or add it directly to your webpage using a CDN:
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-corner/dist/fork-corner.min.css">
+<script src="https://cdn.jsdelivr.net/npm/fork-corner/dist/fork-corner.min.js" defer></script>
+```
+
 ## Usage
 
-...
+After installing Fork Corner simply add this one line of code to the ``<body>`` of your webpage:
+
+```html
+<a href="https://github.com/user/repo" target="_blank" id="fork-corner" class="fork-corner fc-pos-tr fc-animate-default fc-theme-default"></a>
+```
+
+Fork Corner uses _``fork-corner``_ as ID to identify which element should be use in creating the fork corner. The class _``fork-corner``_ is use to identify which element to be controlled by the class. We have few important classes to quickly customize the fork corner's look and feel.
+
+### Position Class
+
+Class to position the Fork Corner on your webpage. By default, the position is _``top right``_.
+
+| Class | Position |
+|-------|----------|
+| ``fc-pos-tr`` | Top, Right |
+| ``fc-pos-tl`` | Top, Left |
+| ``fc-pos-br`` | Not yet available |
+| ``fc-pos-bl`` | Not yet available |
+
+### Animation Class
+
+Class to animate the Fork Corner on your webpage. By default, when you hover your mouse to the icon it will rotate.
+
+| Class | Animation |
+|-------|-----------|
+| ``fc-animate-default`` | Icon rotation on cursor hover |
+
+> More animation will come, have animation in mind? Contribute today!
+
+### Theme Class
+
+Class to select pre-defined theme or style you want to use. By default, it will show the official **Git** logo.
+
+| Class | Theme/Brand |
+|-------|-----------|
+| ``fc-theme-default`` | Git Logo |
+| ``fc-theme-github`` | GitHub Logo |
+| ``fc-theme-gitlab`` | Gitlab Logo |
+| ``fc-theme-bitbucket`` | Bitbucket Logo |
+
+> More theme and brand will come, have one in mind? Contribute today!
 
 ## Used By
 
@@ -76,6 +125,8 @@ $ npm i fork-corner --save
 ## Badges
 
 ...
+
+---
 
 ## Contributing
 
