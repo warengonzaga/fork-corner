@@ -1,16 +1,67 @@
 # Fork Corner [![Developed by Waren Gonzaga](https://img.shields.io/badge/Developed%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=for-the-badge)](https://github.com/warengonzaga)
 
+![Version](https://img.shields.io/github/release/WarenGonzaga/fork-corner.svg?style=for-the-badge) ![Stars](https://img.shields.io/github/stars/WarenGonzaga/fork-corner.svg?style=for-the-badge) ![Size](https://img.shields.io/github/size/warengonzaga/fork-corner/dist/index.js?color=green&style=for-the-badge) ![NPM](https://img.shields.io/npm/dm/fork-corner?color=red&style=for-the-badge) ![License](https://img.shields.io/github/license/WarenGonzaga/fork-corner.svg?style=for-the-badge)
+
 A modern and global open source fork corner label for your project's landing page.
 
 [![IssueHunt](https://issuehunt.io/static/embed/issuehunt-button-v1.svg)](https://issuehunt.io/r/WarenGonzaga/fork-corner)
 
+## What is Fork Corner
+
+This is my modern approach to the very old style of adding a "Fork me on Github" label.
+
 ## Features
 
-...
+<!-- markdownlint-disable MD033 MD014 -->
+
+<details>
+    <summary>Modern Design</summary><br/>
+
+> details...
+
+</details>
+
+<details>
+    <summary>Responsive</summary><br/>
+
+> details...
+
+</details>
+
+<details>
+    <summary>Customizable</summary><br/>
+
+> details...
+
+</details>
+
+<details>
+    <summary>Lightweight</summary><br/>
+
+> details...
+
+</details>
+
+<details>
+    <summary>CSS3 Animations</summary><br/>
+
+> details...
+
+</details>
+
+<!-- markdownlint-enable MD033 -->
 
 ## Installation
 
-...
+Install with npm:
+
+<!-- markdownlint-disable MD014 -->
+
+```bash
+$ npm i fork-corner --save
+```
+
+<!-- markdownlint-enable MD014 -->
 
 ## Usage
 
@@ -18,11 +69,9 @@ A modern and global open source fork corner label for your project's landing pag
 
 ## Used By
 
-...
+- _Your project goes here_
 
-## Related Projects
-
-...
+> Wanna see your project here? Let us know!
 
 ## Badges
 
@@ -46,7 +95,7 @@ Wanna see other projects I made? Join today!
 
 If you love this project please consider to donate or support the development by means of coffee. You may also fund this project to maintain active and close more issues. Just a cup of coffee is enough to appreciate our hardwork.
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=for-the-badge)](https://paypal.me/warengonzagaofficial) [![Support](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-orange.svg?style=for-the-badge)](https://buymeacoff.ee/warengonzaga) [![Fund](https://img.shields.io/badge/Fund-IssueHunt-%2300A156.svg?style=for-the-badge)](https://issuehunt.io/r/WarenGonzaga/buymeacoffee.js)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=for-the-badge)](https://paypal.me/warengonzagaofficial) [![Support](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-orange.svg?style=for-the-badge)](https://buymeacoff.ee/warengonzaga) [![Fund](https://img.shields.io/badge/Fund-IssueHunt-%2300A156.svg?style=for-the-badge)](https://issuehunt.io/r/WarenGonzaga/fork-corner)
 
 ## License
 

@@ -19,6 +19,14 @@ body {
     &.fc-tr {
         top: $corner-size/12;
         right: $corner-size/12;
+
+        &.fc-animate-default {
+            transition: 0.5s;
+            &:hover {
+                transform: rotate(45deg);
+                transition: 0.5s;
+            }
+        }
     }
     // top right element
     &.fc-tr + div {
@@ -30,6 +38,14 @@ body {
     &.fc-tl {
         top: $corner-size/12;
         left: $corner-size/12;
+
+        &.fc-animate-default {
+            transition: 0.5s;
+            &:hover {
+                transform: rotate(-45deg);
+                transition: 0.5s;
+            }
+        }
     }
     // top left element
     &.fc-tl + div {
@@ -41,84 +57,42 @@ body {
 
 // default theme
 .fork-corner {
-    &.fc-tr {
-        &.fc-theme-default {
-            text-decoration: none;
-            > i {
-                font-size: $corner-size/4;
-                color: $default-icon-color;
-            }
-        }
-        &.fc-theme-default + div {
-            background-color: $default-bg-color;
+    &.fc-theme-default {
+        text-decoration: none;
+        > i {
+            font-size: $corner-size/4;
+            color: $default-icon-color;
         }
     }
-    &.fc-tl {
-        &.fc-theme-default {
-            text-decoration: none;
-            > i {
-                font-size: $corner-size/4;
-                color: $default-icon-color;
-            }
-        }
-        &.fc-theme-default + div {
-            background-color: $default-bg-color;
-        }
+    &.fc-theme-default + div {
+        background-color: $default-bg-color;
     }
 }
 
 // github theme
 .fork-corner {
-    &.fc-tr {
-        &.fc-theme-github {
-            text-decoration: none;
-            > i {
-                font-size: $corner-size/4;
-                color: $github-icon-color;
-            }
-        }
-        &.fc-theme-github + div {
-            background-color: $github-bg-color;
+    &.fc-theme-github {
+        text-decoration: none;
+        > i {
+            font-size: $corner-size/4;
+            color: $github-icon-color;
         }
     }
-    &.fc-tl {
-        &.fc-theme-github {
-            text-decoration: none;
-            > i {
-                font-size: $corner-size/4;
-                color: $github-icon-color;
-            }
-        }
-        &.fc-theme-github + div {
-            background-color: $github-bg-color;
-        }
+    &.fc-theme-github + div {
+        background-color: $github-bg-color;
     }
 }
 
 // bitbucket theme
 .fork-corner {
-    &.fc-tr {
-        &.fc-theme-bitbucket {
-            text-decoration: none;
-            > i {
-                font-size: $corner-size/4;
-                color: $bitbucket-icon-color;
-            }
-        }
-        &.fc-theme-bitbucket + div {
-            background-color: $bitbucket-bg-color;
+    &.fc-theme-bitbucket {
+        text-decoration: none;
+        > i {
+            font-size: $corner-size/4;
+            color: $bitbucket-icon-color;
         }
     }
-    &.fc-tl {
-        &.fc-theme-bitbucket {
-            text-decoration: none;
-            > i {
-                font-size: $corner-size/4;
-                color: $bitbucket-icon-color;
-            }
-        }
-        &.fc-theme-bitbucket + div {
-            background-color: $bitbucket-bg-color;
-        }
+    &.fc-theme-bitbucket + div {
+        background-color: $bitbucket-bg-color;
     }
 }
