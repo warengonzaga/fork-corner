@@ -1,7 +1,7 @@
 /*!
  * Fork Corner - https://github.com/WarenGonzaga/fork-corner#readme
  * A modern and global open source fork corner label for your project's landing page.
- * Version: 1.0.0-alpha.2
+ * Version: 1.0.0-alpha.3
  * Github: https://github.com/WarenGonzaga/fork-corner
  * Licensed Under The MIT License: http://opensource.org/licenses/MIT
  * Copyright (c) 2020 Waren Gonzaga
@@ -12,18 +12,6 @@
  * Website: warengonzaga.com
  */
 
-/*!
- * Main Stylesheet | Fork Corner
- * By Waren Gonzaga
- */
-/*!
- * Variables Stylesheet | Fork Corner
- * By Waren Gonzaga
- */
-/*!
- * Base Stylesheet | Fork Corner
- * By Waren Gonzaga
- */
 body {
   overflow-x: hidden; }
 
@@ -55,26 +43,56 @@ body {
   left: -100px;
   transform: rotate(45deg); }
 
+.fork-corner.fc-tr.fc-theme-default {
+  text-decoration: none; }
+  .fork-corner.fc-tr.fc-theme-default > i {
+    font-size: 50px;
+    color: #ffffff; }
+
 .fork-corner.fc-tr.fc-theme-default + div {
   background-color: #242424; }
+
+.fork-corner.fc-tl.fc-theme-default {
+  text-decoration: none; }
+  .fork-corner.fc-tl.fc-theme-default > i {
+    font-size: 50px;
+    color: #ffffff; }
 
 .fork-corner.fc-tl.fc-theme-default + div {
   background-color: #242424; }
 
 .fork-corner.fc-tr.fc-theme-github {
-  text-decoration: none;
-  width: 50px;
-  height: 50px;
-  background: url("https://raw.githubusercontent.com/WarenGonzaga/fork-corner/main/svg/github.svg"); }
+  text-decoration: none; }
+  .fork-corner.fc-tr.fc-theme-github > i {
+    font-size: 50px;
+    color: #ffffff; }
 
 .fork-corner.fc-tr.fc-theme-github + div {
   background-color: #181717; }
 
 .fork-corner.fc-tl.fc-theme-github {
-  text-decoration: none;
-  width: 50px;
-  height: 50px;
-  background: url("https://raw.githubusercontent.com/WarenGonzaga/fork-corner/main/svg/github.svg"); }
+  text-decoration: none; }
+  .fork-corner.fc-tl.fc-theme-github > i {
+    font-size: 50px;
+    color: #ffffff; }
 
 .fork-corner.fc-tl.fc-theme-github + div {
   background-color: #181717; }
+
+.fork-corner.fc-tr.fc-theme-bitbucket {
+  text-decoration: none; }
+  .fork-corner.fc-tr.fc-theme-bitbucket > i {
+    font-size: 50px;
+    color: #ffffff; }
+
+.fork-corner.fc-tr.fc-theme-bitbucket + div {
+  background-color: #205081; }
+
+.fork-corner.fc-tl.fc-theme-bitbucket {
+  text-decoration: none; }
+  .fork-corner.fc-tl.fc-theme-bitbucket > i {
+    font-size: 50px;
+    color: #ffffff; }
+
+.fork-corner.fc-tl.fc-theme-bitbucket + div {
+  background-color: #205081; }

@@ -1,8 +1,3 @@
-/*!
- * Base Stylesheet | Fork Corner
- * By Waren Gonzaga
- */
-
 body {
     overflow-x: hidden;
 }
@@ -47,11 +42,25 @@ body {
 // default theme
 .fork-corner {
     &.fc-tr {
+        &.fc-theme-default {
+            text-decoration: none;
+            > i {
+                font-size: $corner-size/4;
+                color: $default-icon-color;
+            }
+        }
         &.fc-theme-default + div {
             background-color: $default-bg-color;
         }
     }
     &.fc-tl {
+        &.fc-theme-default {
+            text-decoration: none;
+            > i {
+                font-size: $corner-size/4;
+                color: $default-icon-color;
+            }
+        }
         &.fc-theme-default + div {
             background-color: $default-bg-color;
         }
@@ -63,9 +72,10 @@ body {
     &.fc-tr {
         &.fc-theme-github {
             text-decoration: none;
-            width: $corner-size/4;
-            height: $corner-size/4;
-            background: url("https://raw.githubusercontent.com/WarenGonzaga/fork-corner/main/svg/github.svg");
+            > i {
+                font-size: $corner-size/4;
+                color: $github-icon-color;
+            }
         }
         &.fc-theme-github + div {
             background-color: $github-bg-color;
@@ -74,12 +84,41 @@ body {
     &.fc-tl {
         &.fc-theme-github {
             text-decoration: none;
-            width: $corner-size/4;
-            height: $corner-size/4;
-            background: url("https://raw.githubusercontent.com/WarenGonzaga/fork-corner/main/svg/github.svg");
+            > i {
+                font-size: $corner-size/4;
+                color: $github-icon-color;
+            }
         }
         &.fc-theme-github + div {
             background-color: $github-bg-color;
+        }
+    }
+}
+
+// bitbucket theme
+.fork-corner {
+    &.fc-tr {
+        &.fc-theme-bitbucket {
+            text-decoration: none;
+            > i {
+                font-size: $corner-size/4;
+                color: $bitbucket-icon-color;
+            }
+        }
+        &.fc-theme-bitbucket + div {
+            background-color: $bitbucket-bg-color;
+        }
+    }
+    &.fc-tl {
+        &.fc-theme-bitbucket {
+            text-decoration: none;
+            > i {
+                font-size: $corner-size/4;
+                color: $bitbucket-icon-color;
+            }
+        }
+        &.fc-theme-bitbucket + div {
+            background-color: $bitbucket-bg-color;
         }
     }
 }

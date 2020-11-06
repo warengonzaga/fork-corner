@@ -11,14 +11,18 @@ const {
     watch }     = require('gulp'),
     sass        = require('gulp-sass'),
     sassLint    = require('gulp-sass-lint'),
+    uglify      = require('gulp-uglify-es').default,
+    eslint      = require('gulp-eslint'),
+    pipeline    = require('readable-stream').pipeline,
     header      = require('gulp-header'),
     rename      = require('gulp-rename'),
     clean       = require('gulp-clean'),
     fs          = require('fs');
 
 const path = {
-    root: "./",
-    build: "./*.css",
+    dist: "./dist",
+    buildCSS: "./dist/*.css",
+    buildJS: "./dist/*.js",
     source: "./source",
     demo: "./demo"
 };
@@ -46,7 +50,7 @@ const data = {
 // setup sass compiler
 sass.compiler = require('node-sass');
 
-// link css
+// lint css
 function lintCSS() {
     return src(path.source+'/*.scss')
         .pipe(sassLint())
@@ -54,50 +58,81 @@ function lintCSS() {
         .pipe(sassLint.failOnError());
 }
 
+// lin js
+function lintJS() {
+    return src(path.source+'/*.js')
+        .pipe(eslint())
+        .pipe(eslint.format())
+        .pipe(eslint.failAfterError())
+        .pipe(dest(path.dist));
+}
+
 // compile css
 function compile() {
     return src(path.source+'/*.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(dest(path.root));
+        .pipe(dest(path.dist));
 }
 
 // minify css
-function minify() {
-    return src(path.build)
+function minifyCSS() {
+    return src(path.buildCSS)
         .pipe(rename({
             suffix: '.min'
         }))
         .pipe(sass({outputStyle: "compressed"}).on('error', sass.logError))
-        .pipe(dest(path.root));
+        .pipe(dest(path.dist));
+}
+
+// minify js
+function minifyJS() {
+    return pipeline(
+        src(path.buildJS),
+        rename({
+            suffix: '.min'
+        }),
+        uglify(),
+        dest(path.dist));
 }
 
 // add copyright label
 function copyright() {
-    return src(path.build)
+    return src([path.dist+'/*.css',path.dist+'/*.js'])
         .pipe(header(data.banner, pkg))
-        .pipe(dest(path.root));
+        .pipe(dest(path.dist));
 }
 
 // clean builds
 function cleanBuild() {
-    return src([path.build, path.demo+'/assets/css/*.css'], {read: false})
-        .pipe(clean());
+    return src([
+        path.dist, path.demo+'/assets/css/*.css',
+        path.demo+'/assets/js/*.js'
+    ], {
+        read: false,
+        allowEmpty: true
+    }).pipe(clean());
 }
 
 // develop builds
 function devBuild() {
-    return watch(path.source+'/*.scss', series(
-        lintCSS, cleanBuild, compile, minify, copyright, demo
-        ));
+    return watch([path.source+'/*.scss',path.source+'/*.js'], series(
+        cleanBuild, lintCSS, lintJS, compile, minifyCSS, minifyJS, copyright, demoCSS, demoJS
+    ));
 }
 
-// demo
-function demo() {
-    return src('./fork-corner.min.css')
-        .pipe(dest(path.demo+'/assets/css/'))
+// demoCSS
+function demoCSS() {
+    return src(path.dist+'/*.min.css')
+        .pipe(dest(path.demo+'/assets/css/'));
+}
+
+// demoJS
+function demoJS() {
+    return src(path.dist+'/*.js')
+        .pipe(dest(path.demo+'/assets/js/'));
 }
 
 // gulp process
-exports.default = series(lintCSS, cleanBuild, compile, minify, copyright, demo);
+exports.default = series(cleanBuild, lintCSS, lintJS, compile, minifyCSS, minifyJS, copyright, demoCSS, demoJS);
 exports.dev = devBuild;
 exports.clean = cleanBuild;
