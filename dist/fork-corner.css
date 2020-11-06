@@ -1,7 +1,7 @@
 /*!
  * Fork Corner - https://github.com/WarenGonzaga/fork-corner#readme
  * A modern and global open source fork corner label for your project's landing page.
- * Version: 1.0.0-beta.1
+ * Version: 1.0.0-rc.1
  * Github: https://github.com/WarenGonzaga/fork-corner
  * Licensed Under The MIT License: http://opensource.org/licenses/MIT
  * Copyright (c) 2020 Waren Gonzaga
@@ -25,30 +25,30 @@ body {
   height: 200px;
   z-index: 100; }
 
-.fork-corner.fc-tr {
+.fork-corner.fc-pos-tr {
   top: 16.66667px;
   right: 16.66667px; }
-  .fork-corner.fc-tr.fc-animate-default {
+  .fork-corner.fc-pos-tr.fc-animate-default {
     transition: 0.5s; }
-    .fork-corner.fc-tr.fc-animate-default:hover {
+    .fork-corner.fc-pos-tr.fc-animate-default:hover {
       transform: rotate(45deg);
       transition: 0.5s; }
 
-.fork-corner.fc-tr + div {
+.fork-corner.fc-pos-tr + div {
   top: -100px;
   right: -100px;
   transform: rotate(45deg); }
 
-.fork-corner.fc-tl {
+.fork-corner.fc-pos-tl {
   top: 16.66667px;
   left: 16.66667px; }
-  .fork-corner.fc-tl.fc-animate-default {
+  .fork-corner.fc-pos-tl.fc-animate-default {
     transition: 0.5s; }
-    .fork-corner.fc-tl.fc-animate-default:hover {
+    .fork-corner.fc-pos-tl.fc-animate-default:hover {
       transform: rotate(-45deg);
       transition: 0.5s; }
 
-.fork-corner.fc-tl + div {
+.fork-corner.fc-pos-tl + div {
   top: -100px;
   left: -100px;
   transform: rotate(45deg); }
@@ -60,7 +60,7 @@ body {
     color: #ffffff; }
 
 .fork-corner.fc-theme-default + div {
-  background-color: #242424; }
+  background-color: #f34f29; }
 
 .fork-corner.fc-theme-github {
   text-decoration: none; }
@@ -70,6 +70,15 @@ body {
 
 .fork-corner.fc-theme-github + div {
   background-color: #181717; }
+
+.fork-corner.fc-theme-gitlab {
+  text-decoration: none; }
+  .fork-corner.fc-theme-gitlab > i {
+    font-size: 50px;
+    color: #ffffff; }
+
+.fork-corner.fc-theme-gitlab + div {
+  background-color: #e24329; }
 
 .fork-corner.fc-theme-bitbucket {
   text-decoration: none; }
