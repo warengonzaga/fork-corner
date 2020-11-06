@@ -2,3 +2,84 @@
  * Base Stylesheet | Fork Corner
  * By Waren Gonzaga
  */
+
+body {
+    overflow-x: hidden;
+}
+
+#fork-corner {
+    z-index: 105;
+    position: absolute;
+}
+
+.fork-corner + div {
+    position: absolute;
+    width: $corner-size;
+    height: $corner-size;
+    z-index: 100;
+}
+
+.fork-corner {
+    // top right controller
+    &.fc-tr {
+        top: $corner-size/12;
+        right: $corner-size/12;
+    }
+    // top right element
+    &.fc-tr + div {
+        top: ($corner-size/2) - $corner-size;
+        right: ($corner-size/2) - $corner-size;
+        transform: rotate(45deg);
+    }
+    // top left controller
+    &.fc-tl {
+        top: $corner-size/12;
+        left: $corner-size/12;
+    }
+    // top left element
+    &.fc-tl + div {
+        top: ($corner-size/2) - $corner-size;
+        left: ($corner-size/2) - $corner-size;
+        transform: rotate(45deg);
+    }
+}
+
+// default theme
+.fork-corner {
+    &.fc-tr {
+        &.fc-theme-default + div {
+            background-color: $default-bg-color;
+        }
+    }
+    &.fc-tl {
+        &.fc-theme-default + div {
+            background-color: $default-bg-color;
+        }
+    }
+}
+
+// github theme
+.fork-corner {
+    &.fc-tr {
+        &.fc-theme-github {
+            text-decoration: none;
+            width: $corner-size/4;
+            height: $corner-size/4;
+            background: url("https://simpleicons.org/icons/github.svg");
+        }
+        &.fc-theme-github + div {
+            background-color: $github-bg-color;
+        }
+    }
+    &.fc-tl {
+        &.fc-theme-github {
+            text-decoration: none;
+            width: $corner-size/4;
+            height: $corner-size/4;
+            background: url("https://simpleicons.org/icons/github.svg");
+        }
+        &.fc-theme-github + div {
+            background-color: $github-bg-color;
+        }
+    }
+}

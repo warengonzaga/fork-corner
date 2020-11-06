@@ -24,3 +24,57 @@
  * Base Stylesheet | Fork Corner
  * By Waren Gonzaga
  */
+body {
+  overflow-x: hidden; }
+
+#fork-corner {
+  z-index: 105;
+  position: absolute; }
+
+.fork-corner + div {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 100; }
+
+.fork-corner.fc-tr {
+  top: 16.66667px;
+  right: 16.66667px; }
+
+.fork-corner.fc-tr + div {
+  top: -100px;
+  right: -100px;
+  transform: rotate(45deg); }
+
+.fork-corner.fc-tl {
+  top: 16.66667px;
+  left: 16.66667px; }
+
+.fork-corner.fc-tl + div {
+  top: -100px;
+  left: -100px;
+  transform: rotate(45deg); }
+
+.fork-corner.fc-tr.fc-theme-default + div {
+  background-color: #242424; }
+
+.fork-corner.fc-tl.fc-theme-default + div {
+  background-color: #242424; }
+
+.fork-corner.fc-tr.fc-theme-github {
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  background: url("https://simpleicons.org/icons/github.svg"); }
+
+.fork-corner.fc-tr.fc-theme-github + div {
+  background-color: #181717; }
+
+.fork-corner.fc-tl.fc-theme-github {
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  background: url("https://simpleicons.org/icons/github.svg"); }
+
+.fork-corner.fc-tl.fc-theme-github + div {
+  background-color: #181717; }

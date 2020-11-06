@@ -87,7 +87,7 @@ function cleanBuild() {
 // develop builds
 function devBuild() {
     return watch(path.source+'/*.scss', series(
-        lintCSS, compile, minify, copyright, demo
+        lintCSS, cleanBuild, compile, minify, copyright, demo
         ));
 }
 
