@@ -16,7 +16,7 @@ body {
 
 .fork-corner {
     // top right controller
-    &.fc-tr {
+    &.fc-pos-tr {
         top: $corner-size/12;
         right: $corner-size/12;
 
@@ -29,13 +29,13 @@ body {
         }
     }
     // top right element
-    &.fc-tr + div {
+    &.fc-pos-tr + div {
         top: ($corner-size/2) - $corner-size;
         right: ($corner-size/2) - $corner-size;
         transform: rotate(45deg);
     }
     // top left controller
-    &.fc-tl {
+    &.fc-pos-tl {
         top: $corner-size/12;
         left: $corner-size/12;
 
@@ -48,7 +48,7 @@ body {
         }
     }
     // top left element
-    &.fc-tl + div {
+    &.fc-pos-tl + div {
         top: ($corner-size/2) - $corner-size;
         left: ($corner-size/2) - $corner-size;
         transform: rotate(45deg);
@@ -80,6 +80,20 @@ body {
     }
     &.fc-theme-github + div {
         background-color: $github-bg-color;
+    }
+}
+
+// gitlab theme
+.fork-corner {
+    &.fc-theme-gitlab {
+        text-decoration: none;
+        > i {
+            font-size: $corner-size/4;
+            color: $gitlab-icon-color;
+        }
+    }
+    &.fc-theme-gitlab + div {
+        background-color: $gitlab-bg-color;
     }
 }
 

@@ -17,6 +17,10 @@ if(document.querySelector('.fc-theme-github')){
     fcIcon.setAttribute('class','devicon-github-plain');
 }
 
+if(document.querySelector('.fc-theme-gitlab')) {
+    fcIcon.setAttribute('class','devicon-gitlab-plain');
+}
+
 if(document.querySelector('.fc-theme-bitbucket')) {
     fcIcon.setAttribute('class','devicon-bitbucket-plain');
 }
