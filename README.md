@@ -8,7 +8,7 @@ A modern and global open source fork corner label for your project's landing pag
 
 ## What is Fork Corner
 
-A modern approach to the old style of adding "Fork Me" ribbon or label in a open source project's landing page.
+A modern approach to the old style of adding "Fork Me" ribbon or label in an open source project's landing page.
 
 ## Features
 
