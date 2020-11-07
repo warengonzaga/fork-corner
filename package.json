@@ -2,7 +2,7 @@
   "name": "fork-corner",
   "version": "1.0.0-rc.1",
   "description": "A modern and global open source fork corner label for your project's landing page.",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/WarenGonzaga/fork-corner/issues"
   },
-  "homepage": "https://github.com/WarenGonzaga/fork-corner#readme",
+  "homepage": "https://fork-corner.warengonzaga.com",
   "github": "https://github.com/WarenGonzaga/fork-corner",
   "devDependencies": {
     "gulp": "^4.0.2",
