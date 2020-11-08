@@ -118,6 +118,9 @@ Class to select pre-defined theme or style you want to use. By default, it will 
 
 ## Used By
 
+- _[animate.css](https://animate.style)_
+- _[daisy.js](https://daisyjs.warengonzaga.com)_
+- _[nancy.js](https://nancyjs.warengonzaga.com)_
 - _Your project goes here_
 
 > Wanna see your project here? Let us know!
