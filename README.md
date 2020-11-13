@@ -21,35 +21,35 @@ Visit [fork-corner.warengonzaga.com](https://fork-corner.warengonzaga.com) for o
 <details>
     <summary>Modern Design</summary><br/>
 
-> details...
+> _The Fork Corner design inspired by [Tholman's GitHub Corners](https://github.com/tholman/github-corners), I made my own version by adding more control to it using CSS and JS. Instead of using SVG I use icons from [Devicons](https://devicons.dev)._
 
 </details>
 
 <details>
     <summary>Responsive</summary><br/>
 
-> details...
+> _Fork Corner is responsive to any screen sizes. Focus on your landing page while fork corner do the rest of responsive design._
 
 </details>
 
 <details>
     <summary>Customizable</summary><br/>
 
-> details...
+> _It uses class to quickly customize your Fork Corner. It allows you to change themes, animations, and which want you want to position your Fork Corner. You can edit the source file if you want more advance customization._
 
 </details>
 
 <details>
     <summary>Lightweight</summary><br/>
 
-> details...
+> _Fork Corner is very lightweight and optimized so don't worry about the performance of your landing page._
 
 </details>
 
 <details>
     <summary>CSS3 Animations</summary><br/>
 
-> details...
+> _Fork Corner author is a core contributor to the popular [animate.css](https://animate.style). You can customize your Fork Corner animations by using utility classes just like using [animate.css](https://animate.style) utility classes._
 
 </details>
 
@@ -124,7 +124,6 @@ Class to select pre-defined theme or style you want to use. By default, it will 
 
 - _[animate.css](https://animate.style)_
 - _[daisy.js](https://daisyjs.warengonzaga.com)_
-- _[nancy.js](https://nancyjs.warengonzaga.com)_
 - _Your project goes here_
 
 > Wanna see your project here? Let us know!
