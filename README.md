@@ -1,6 +1,6 @@
 # Fork Corner [![Developed by Waren Gonzaga](https://img.shields.io/badge/Developed%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=for-the-badge)](https://github.com/warengonzaga)
 
-![Version](https://img.shields.io/github/release/WarenGonzaga/fork-corner.svg?style=for-the-badge) ![Stars](https://img.shields.io/github/stars/WarenGonzaga/fork-corner.svg?style=for-the-badge) ![Size](https://img.shields.io/github/repo-size/warengonzaga/fork-corner?color=green&style=for-the-badge) ![NPM](https://img.shields.io/npm/dm/fork-corner?color=red&style=for-the-badge) ![License](https://img.shields.io/github/license/WarenGonzaga/fork-corner.svg?style=for-the-badge)
+![Version](https://img.shields.io/github/release/WarenGonzaga/fork-corner.svg?style=flat-square) ![Stars](https://img.shields.io/github/stars/WarenGonzaga/fork-corner.svg?style=flat-square) ![Size](https://img.shields.io/github/repo-size/warengonzaga/fork-corner?color=green&style=flat-square) ![NPM](https://img.shields.io/npm/dm/fork-corner?color=red&style=flat-square) ![jsdelivr](https://img.shields.io/jsdelivr/npm/hm/fork-corner?color=orange&style=flat-square) ![License](https://img.shields.io/github/license/WarenGonzaga/fork-corner.svg?style=flat-square)
 
 A modern and global open source fork corner label for your project's landing page.
 
