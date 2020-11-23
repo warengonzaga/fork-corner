@@ -12,8 +12,11 @@
  * Website: warengonzaga.com
  */
 
-.fork-corner-parent {
+html, body {
   overflow-x: hidden; }
+
+body {
+  touch-action: pan-y; }
 
 #fork-corner {
   z-index: 105;

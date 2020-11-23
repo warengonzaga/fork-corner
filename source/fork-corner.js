@@ -35,6 +35,3 @@ fchead.appendChild(fcDevicon)
 // insert icon inside controller
 fcController.appendChild(fcIcon);
 fcController.parentNode.insertBefore(fcElement, fcController.nextSibling);
-
-// select parent element
-fcController.parentElement.setAttribute('class','fork-corner-parent');
