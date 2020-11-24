@@ -1,4 +1,4 @@
-# Fork Corner [![Developed by Waren Gonzaga](https://img.shields.io/badge/Developed%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=for-the-badge)](https://github.com/warengonzaga)
+# Fork Corner [![Developed by Waren Gonzaga](https://img.shields.io/badge/Developed%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=flat-square)](https://github.com/warengonzaga) [![Rate on Openbase](https://badges.openbase.io/js/rating/fork-corner.svg)](https://openbase.io/js/fork-corner?utm_source=embedded&utm_medium=badge&utm_campaign=rate-badge)
 
 ![Version](https://img.shields.io/github/release/WarenGonzaga/fork-corner.svg?style=flat-square) ![Stars](https://img.shields.io/github/stars/WarenGonzaga/fork-corner.svg?style=flat-square) ![Size](https://img.shields.io/github/repo-size/warengonzaga/fork-corner?color=green&style=flat-square) ![NPM](https://img.shields.io/npm/dm/fork-corner?color=red&style=flat-square) ![jsdelivr](https://img.shields.io/jsdelivr/npm/hm/fork-corner?color=orange&style=flat-square) ![License](https://img.shields.io/github/license/WarenGonzaga/fork-corner.svg?style=flat-square)
 
@@ -13,6 +13,8 @@ A modern approach to the old style of adding "Fork Me" ribbon or label in an ope
 ## Demo
 
 Visit [fork-corner.warengonzaga.com](https://fork-corner.warengonzaga.com) for official demo.
+
+> Fork corner generator page coming soon...
 
 ## Features
 
@@ -120,6 +122,18 @@ Class to select pre-defined theme or style you want to use. By default, it will 
 
 > More theme and brand will come, have one in mind? Contribute today!
 
+### Size Class
+
+Class to select pre-defined corner size. By default, it is set as 200px. To set the default size just don't add the size class.
+
+| Class | Corner Size |
+|-------|-----------|
+| ``fc-size-small`` | 150px corner size |
+| ``fc-size-medium`` | 250px corner size |
+| ``fc-size-large`` | 300px corner size |
+
+> If you're looking for specific size please edit the source file and build it.
+
 ## Used By
 
 - _[animate.css](https://animate.style)_
@@ -130,7 +144,7 @@ Class to select pre-defined theme or style you want to use. By default, it will 
 
 ## Badges
 
-...
+Working on custom logo...
 
 ---
 
@@ -146,7 +160,7 @@ If you're facing a problem in using Fork Corner please let me know by creating a
 
 Wanna see other projects I made? Join today!
 
-[![Community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner2)](https://discord.io/warengonzaga) [![Tracker CLI](https://discordapp.com/api/guilds/694612151444439081/widget.png?style=banner2)](https://discord.io/trackercli)
+[![Community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner3)](https://discord.io/warengonzaga)
 
 ## Donate, Support or Fund
 
