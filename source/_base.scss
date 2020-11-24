@@ -8,6 +8,120 @@ html, body {
     position: absolute;
 }
 
+// small corner size
+.fork-corner {
+    &.fc-size-small {
+        // top right controller
+        &.fc-pos-tr {
+            top: $small-corner-size/12;
+            right: $small-corner-size/12;
+
+            & + div {
+                top: ($small-corner-size/2) - $small-corner-size;
+                right: ($small-corner-size/2) - $small-corner-size;
+            }
+        }
+        // top left controller
+        &.fc-pos-tl {
+            top: $small-corner-size/12;
+            left: $small-corner-size/12;
+
+            & + div {
+                top: ($small-corner-size/2) - $small-corner-size;
+                left: ($small-corner-size/2) - $small-corner-size;
+            }
+        }
+        // corner theme
+        &.fc-theme-default > i,
+        &.fc-theme-github > i,
+        &.fc-theme-gitlab > i,
+        &.fc-theme-bitbucket > i {
+            font-size: $small-corner-size/4;
+        }
+        // corner element
+        & + div {
+            width: $small-corner-size;
+            height: $small-corner-size;
+        }
+    }
+}
+
+// medium corner size
+.fork-corner {
+    &.fc-size-medium {
+        // top right controller
+        &.fc-pos-tr {
+            top: $medium-corner-size/12;
+            right: $medium-corner-size/12;
+
+            & + div {
+                top: ($medium-corner-size/2) - $medium-corner-size;
+                right: ($medium-corner-size/2) - $medium-corner-size;
+            }
+        }
+        // top left controller
+        &.fc-pos-tl {
+            top: $medium-corner-size/12;
+            left: $medium-corner-size/12;
+
+            & + div {
+                top: ($medium-corner-size/2) - $medium-corner-size;
+                left: ($medium-corner-size/2) - $medium-corner-size;
+            }
+        }
+        // corner theme
+        &.fc-theme-default > i,
+        &.fc-theme-github > i,
+        &.fc-theme-gitlab > i,
+        &.fc-theme-bitbucket > i {
+            font-size: $medium-corner-size/4;
+        }
+        // corner element
+        & + div {
+            width: $medium-corner-size;
+            height: $medium-corner-size;
+        }
+    }
+}
+
+// large corner size
+.fork-corner {
+    &.fc-size-large {
+        // top right controller
+        &.fc-pos-tr {
+            top: $large-corner-size/12;
+            right: $large-corner-size/12;
+
+            & + div {
+                top: ($large-corner-size/2) - $large-corner-size;
+                right: ($large-corner-size/2) - $large-corner-size;
+            }
+        }
+        // top left controller
+        &.fc-pos-tl {
+            top: $large-corner-size/12;
+            left: $large-corner-size/12;
+
+            & + div {
+                top: ($large-corner-size/2) - $large-corner-size;
+                left: ($large-corner-size/2) - $large-corner-size;
+            }
+        }
+        // corner theme
+        &.fc-theme-default > i,
+        &.fc-theme-github > i,
+        &.fc-theme-gitlab > i,
+        &.fc-theme-bitbucket > i {
+            font-size: $large-corner-size/4;
+        }
+        // corner element
+        & + div {
+            width: $large-corner-size;
+            height: $large-corner-size;
+        }
+    }
+}
+
 .fork-corner + div {
     position: absolute;
     width: $default-corner-size;
@@ -109,119 +223,5 @@ html, body {
     }
     &.fc-theme-bitbucket + div {
         background-color: $bitbucket-bg-color;
-    }
-}
-
-// small corner size
-.fork-corner {
-    &.fc-size-small {
-        // top right controller
-        &.fc-pos-tr {
-            top: $small-corner-size/12 !important;
-            right: $small-corner-size/12 !important;
-
-            & + div {
-                top: ($small-corner-size/2) - $small-corner-size !important;
-                right: ($small-corner-size/2) - $small-corner-size !important;
-            }
-        }
-        // top left controller
-        &.fc-pos-tl {
-            top: $small-corner-size/12 !important;
-            left: $small-corner-size/12 !important;
-
-            & + div {
-                top: ($small-corner-size/2) - $small-corner-size !important;
-                left: ($small-corner-size/2) - $small-corner-size !important;
-            }
-        }
-        // corner theme
-        &.fc-theme-default > i,
-        &.fc-theme-github > i,
-        &.fc-theme-gitlab > i,
-        &.fc-theme-bitbucket > i {
-            font-size: $small-corner-size/4 !important;
-        }
-        // corner element
-        & + div {
-            width: $small-corner-size !important;
-            height: $small-corner-size !important;
-        }
-    }
-}
-
-// medium corner size
-.fork-corner {
-    &.fc-size-medium {
-        // top right controller
-        &.fc-pos-tr {
-            top: $medium-corner-size/12 !important;
-            right: $medium-corner-size/12 !important;
-
-            & + div {
-                top: ($medium-corner-size/2) - $medium-corner-size !important;
-                right: ($medium-corner-size/2) - $medium-corner-size !important;
-            }
-        }
-        // top left controller
-        &.fc-pos-tl {
-            top: $medium-corner-size/12 !important;
-            left: $medium-corner-size/12 !important;
-
-            & + div {
-                top: ($medium-corner-size/2) - $medium-corner-size !important;
-                left: ($medium-corner-size/2) - $medium-corner-size !important;
-            }
-        }
-        // corner theme
-        &.fc-theme-default > i,
-        &.fc-theme-github > i,
-        &.fc-theme-gitlab > i,
-        &.fc-theme-bitbucket > i {
-            font-size: $medium-corner-size/4 !important;
-        }
-        // corner element
-        & + div {
-            width: $medium-corner-size !important;
-            height: $medium-corner-size !important;
-        }
-    }
-}
-
-// large corner size
-.fork-corner {
-    &.fc-size-large {
-        // top right controller
-        &.fc-pos-tr {
-            top: $large-corner-size/12 !important;
-            right: $large-corner-size/12 !important;
-
-            & + div {
-                top: ($large-corner-size/2) - $large-corner-size !important;
-                right: ($large-corner-size/2) - $large-corner-size !important;
-            }
-        }
-        // top left controller
-        &.fc-pos-tl {
-            top: $large-corner-size/12 !important;
-            left: $large-corner-size/12 !important;
-
-            & + div {
-                top: ($large-corner-size/2) - $large-corner-size !important;
-                left: ($large-corner-size/2) - $large-corner-size !important;
-            }
-        }
-        // corner theme
-        &.fc-theme-default > i,
-        &.fc-theme-github > i,
-        &.fc-theme-gitlab > i,
-        &.fc-theme-bitbucket > i {
-            font-size: $large-corner-size/4 !important;
-        }
-        // corner element
-        & + div {
-            width: $large-corner-size !important;
-            height: $large-corner-size !important;
-        }
     }
 }
