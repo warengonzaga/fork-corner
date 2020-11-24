@@ -89,3 +89,75 @@ html, body {
 
 .fork-corner.fc-theme-bitbucket + div {
   background-color: #205081; }
+
+.fork-corner.fc-size-small.fc-pos-tr {
+  top: 12.5px !important;
+  right: 12.5px !important; }
+  .fork-corner.fc-size-small.fc-pos-tr + div {
+    top: -75px !important;
+    right: -75px !important; }
+
+.fork-corner.fc-size-small.fc-pos-tl {
+  top: 12.5px !important;
+  left: 12.5px !important; }
+  .fork-corner.fc-size-small.fc-pos-tl + div {
+    top: -75px !important;
+    left: -75px !important; }
+
+.fork-corner.fc-size-small.fc-theme-default > i,
+.fork-corner.fc-size-small.fc-theme-github > i,
+.fork-corner.fc-size-small.fc-theme-gitlab > i,
+.fork-corner.fc-size-small.fc-theme-bitbucket > i {
+  font-size: 37.5px !important; }
+
+.fork-corner.fc-size-small + div {
+  width: 150px !important;
+  height: 150px !important; }
+
+.fork-corner.fc-size-medium.fc-pos-tr {
+  top: 20.83333px !important;
+  right: 20.83333px !important; }
+  .fork-corner.fc-size-medium.fc-pos-tr + div {
+    top: -125px !important;
+    right: -125px !important; }
+
+.fork-corner.fc-size-medium.fc-pos-tl {
+  top: 20.83333px !important;
+  left: 20.83333px !important; }
+  .fork-corner.fc-size-medium.fc-pos-tl + div {
+    top: -125px !important;
+    left: -125px !important; }
+
+.fork-corner.fc-size-medium.fc-theme-default > i,
+.fork-corner.fc-size-medium.fc-theme-github > i,
+.fork-corner.fc-size-medium.fc-theme-gitlab > i,
+.fork-corner.fc-size-medium.fc-theme-bitbucket > i {
+  font-size: 62.5px !important; }
+
+.fork-corner.fc-size-medium + div {
+  width: 250px !important;
+  height: 250px !important; }
+
+.fork-corner.fc-size-large.fc-pos-tr {
+  top: 25px !important;
+  right: 25px !important; }
+  .fork-corner.fc-size-large.fc-pos-tr + div {
+    top: -150px !important;
+    right: -150px !important; }
+
+.fork-corner.fc-size-large.fc-pos-tl {
+  top: 25px !important;
+  left: 25px !important; }
+  .fork-corner.fc-size-large.fc-pos-tl + div {
+    top: -150px !important;
+    left: -150px !important; }
+
+.fork-corner.fc-size-large.fc-theme-default > i,
+.fork-corner.fc-size-large.fc-theme-github > i,
+.fork-corner.fc-size-large.fc-theme-gitlab > i,
+.fork-corner.fc-size-large.fc-theme-bitbucket > i {
+  font-size: 75px !important; }
+
+.fork-corner.fc-size-large + div {
+  width: 300px !important;
+  height: 300px !important; }

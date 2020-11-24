@@ -10,16 +10,16 @@ html, body {
 
 .fork-corner + div {
     position: absolute;
-    width: $corner-size;
-    height: $corner-size;
+    width: $default-corner-size;
+    height: $default-corner-size;
     z-index: 100;
 }
 
 .fork-corner {
     // top right controller
     &.fc-pos-tr {
-        top: $corner-size/12;
-        right: $corner-size/12;
+        top: $default-corner-size/12;
+        right: $default-corner-size/12;
 
         &.fc-animate-default {
             transition: 0.5s;
@@ -31,14 +31,14 @@ html, body {
     }
     // top right element
     &.fc-pos-tr + div {
-        top: ($corner-size/2) - $corner-size;
-        right: ($corner-size/2) - $corner-size;
+        top: ($default-corner-size/2) - $default-corner-size;
+        right: ($default-corner-size/2) - $default-corner-size;
         transform: rotate(45deg);
     }
     // top left controller
     &.fc-pos-tl {
-        top: $corner-size/12;
-        left: $corner-size/12;
+        top: $default-corner-size/12;
+        left: $default-corner-size/12;
 
         &.fc-animate-default {
             transition: 0.5s;
@@ -50,8 +50,8 @@ html, body {
     }
     // top left element
     &.fc-pos-tl + div {
-        top: ($corner-size/2) - $corner-size;
-        left: ($corner-size/2) - $corner-size;
+        top: ($default-corner-size/2) - $default-corner-size;
+        left: ($default-corner-size/2) - $default-corner-size;
         transform: rotate(45deg);
     }
 }
@@ -61,7 +61,7 @@ html, body {
     &.fc-theme-default {
         text-decoration: none;
         > i {
-            font-size: $corner-size/4;
+            font-size: $default-corner-size/4;
             color: $default-icon-color;
         }
     }
@@ -75,7 +75,7 @@ html, body {
     &.fc-theme-github {
         text-decoration: none;
         > i {
-            font-size: $corner-size/4;
+            font-size: $default-corner-size/4;
             color: $github-icon-color;
         }
     }
@@ -89,7 +89,7 @@ html, body {
     &.fc-theme-gitlab {
         text-decoration: none;
         > i {
-            font-size: $corner-size/4;
+            font-size: $default-corner-size/4;
             color: $gitlab-icon-color;
         }
     }
@@ -103,11 +103,125 @@ html, body {
     &.fc-theme-bitbucket {
         text-decoration: none;
         > i {
-            font-size: $corner-size/4;
+            font-size: $default-corner-size/4;
             color: $bitbucket-icon-color;
         }
     }
     &.fc-theme-bitbucket + div {
         background-color: $bitbucket-bg-color;
+    }
+}
+
+// small corner size
+.fork-corner {
+    &.fc-size-small {
+        // top right controller
+        &.fc-pos-tr {
+            top: $small-corner-size/12 !important;
+            right: $small-corner-size/12 !important;
+
+            & + div {
+                top: ($small-corner-size/2) - $small-corner-size !important;
+                right: ($small-corner-size/2) - $small-corner-size !important;
+            }
+        }
+        // top left controller
+        &.fc-pos-tl {
+            top: $small-corner-size/12 !important;
+            left: $small-corner-size/12 !important;
+
+            & + div {
+                top: ($small-corner-size/2) - $small-corner-size !important;
+                left: ($small-corner-size/2) - $small-corner-size !important;
+            }
+        }
+        // corner theme
+        &.fc-theme-default > i,
+        &.fc-theme-github > i,
+        &.fc-theme-gitlab > i,
+        &.fc-theme-bitbucket > i {
+            font-size: $small-corner-size/4 !important;
+        }
+        // corner element
+        & + div {
+            width: $small-corner-size !important;
+            height: $small-corner-size !important;
+        }
+    }
+}
+
+// medium corner size
+.fork-corner {
+    &.fc-size-medium {
+        // top right controller
+        &.fc-pos-tr {
+            top: $medium-corner-size/12 !important;
+            right: $medium-corner-size/12 !important;
+
+            & + div {
+                top: ($medium-corner-size/2) - $medium-corner-size !important;
+                right: ($medium-corner-size/2) - $medium-corner-size !important;
+            }
+        }
+        // top left controller
+        &.fc-pos-tl {
+            top: $medium-corner-size/12 !important;
+            left: $medium-corner-size/12 !important;
+
+            & + div {
+                top: ($medium-corner-size/2) - $medium-corner-size !important;
+                left: ($medium-corner-size/2) - $medium-corner-size !important;
+            }
+        }
+        // corner theme
+        &.fc-theme-default > i,
+        &.fc-theme-github > i,
+        &.fc-theme-gitlab > i,
+        &.fc-theme-bitbucket > i {
+            font-size: $medium-corner-size/4 !important;
+        }
+        // corner element
+        & + div {
+            width: $medium-corner-size !important;
+            height: $medium-corner-size !important;
+        }
+    }
+}
+
+// large corner size
+.fork-corner {
+    &.fc-size-large {
+        // top right controller
+        &.fc-pos-tr {
+            top: $large-corner-size/12 !important;
+            right: $large-corner-size/12 !important;
+
+            & + div {
+                top: ($large-corner-size/2) - $large-corner-size !important;
+                right: ($large-corner-size/2) - $large-corner-size !important;
+            }
+        }
+        // top left controller
+        &.fc-pos-tl {
+            top: $large-corner-size/12 !important;
+            left: $large-corner-size/12 !important;
+
+            & + div {
+                top: ($large-corner-size/2) - $large-corner-size !important;
+                left: ($large-corner-size/2) - $large-corner-size !important;
+            }
+        }
+        // corner theme
+        &.fc-theme-default > i,
+        &.fc-theme-github > i,
+        &.fc-theme-gitlab > i,
+        &.fc-theme-bitbucket > i {
+            font-size: $large-corner-size/4 !important;
+        }
+        // corner element
+        & + div {
+            width: $large-corner-size !important;
+            height: $large-corner-size !important;
+        }
     }
 }
