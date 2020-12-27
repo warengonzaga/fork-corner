@@ -4,8 +4,6 @@
 
 A modern and global open source fork corner label for your project's landing page.
 
-[![IssueHunt](https://issuehunt.io/static/embed/issuehunt-button-v1.svg)](https://issuehunt.io/r/WarenGonzaga/fork-corner)
-
 ## What is Fork Corner
 
 A modern approach to the old style of adding "Fork Me" ribbon or label in an open source project's landing page.
@@ -138,6 +136,7 @@ Class to select pre-defined corner size. By default, it is set as 200px. To set 
 
 - _[animate.css](https://animate.style)_
 - _[daisy.js](https://daisyjs.warengonzaga.com)_
+- _[pufferpanel](https://pufferpanel.com)_
 - _Your project goes here_
 
 > Wanna see your project here? Let us know!
@@ -160,13 +159,7 @@ If you're facing a problem in using Fork Corner please let me know by creating a
 
 Wanna see other projects I made? Join today!
 
-[![Community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner3)](https://discord.io/warengonzaga)
-
-## Donate, Support or Fund
-
-If you love this project please consider to donate or support the development by means of coffee. You may also fund this project to maintain active and close more issues. Just a cup of coffee is enough to appreciate our hardwork.
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=for-the-badge)](https://paypal.me/warengonzagaofficial) [![Support](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-orange.svg?style=for-the-badge)](https://buymeacoff.ee/warengonzaga) [![Fund](https://img.shields.io/badge/Fund-IssueHunt-%2300A156.svg?style=for-the-badge)](https://issuehunt.io/r/WarenGonzaga/fork-corner)
+[![Community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner3)](https://bmc.xyz/warengonzaga)
 
 ## License
 
