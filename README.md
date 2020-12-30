@@ -94,8 +94,8 @@ Class to position the Fork Corner on your webpage. By default, the position is _
 |-------|----------|
 | ``fc-pos-tr`` | Top, Right |
 | ``fc-pos-tl`` | Top, Left |
-| ``fc-pos-br`` | Not yet available |
-| ``fc-pos-bl`` | Not yet available |
+| ``fc-pos-br`` | Bottom, Right |
+| ``fc-pos-bl`` | Bottom, Left |
 
 ### Animation Class
 
