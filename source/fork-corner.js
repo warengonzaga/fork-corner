@@ -22,7 +22,7 @@ if(document.querySelector('.fc-theme-github')){
 // gitlab icon and theme
 if(document.querySelector('.fc-theme-gitlab')) {
     fcIcon.setAttribute('class','devicon-gitlab-plain');
-}
+} 
 
 // bitbucket icon and theme
 if(document.querySelector('.fc-theme-bitbucket')) {

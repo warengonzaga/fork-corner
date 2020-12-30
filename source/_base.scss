@@ -1,6 +1,11 @@
 html, body {
-    overflow-x: hidden;
+    overflow: hidden;
     touch-action: pan-y;
+    position: relative;
+}
+
+body {
+    margin: 0;
 }
 
 #fork-corner {
@@ -31,6 +36,26 @@ html, body {
                 left: ($small-corner-size/2) - $small-corner-size;
             }
         }
+        // bottom right controller - small size
+        &.fc-pos-br {
+            bottom: $small-corner-size/12;
+            right: $small-corner-size/12;
+
+            & + div {
+                bottom: ($small-corner-size/2) - $small-corner-size;
+                right: ($small-corner-size/2) - $small-corner-size;
+            }
+        }
+        // top left controller - small size
+        &.fc-pos-bl {
+            bottom: $small-corner-size/12;
+            left: $small-corner-size/12;
+
+            & + div {
+                bottom: ($small-corner-size/2) - $small-corner-size;
+                left: ($small-corner-size/2) - $small-corner-size;
+            }
+        }
         // corner theme
         &.fc-theme-default > i,
         &.fc-theme-github > i,
@@ -49,7 +74,7 @@ html, body {
 // medium corner size
 .fork-corner {
     &.fc-size-medium {
-        // top right controller
+        // top right controller - medium
         &.fc-pos-tr {
             top: $medium-corner-size/12;
             right: $medium-corner-size/12;
@@ -59,13 +84,33 @@ html, body {
                 right: ($medium-corner-size/2) - $medium-corner-size;
             }
         }
-        // top left controller
+        // top left controller - medium size
         &.fc-pos-tl {
             top: $medium-corner-size/12;
             left: $medium-corner-size/12;
 
             & + div {
                 top: ($medium-corner-size/2) - $medium-corner-size;
+                left: ($medium-corner-size/2) - $medium-corner-size;
+            }
+        }
+        // bottom right controller - medium size
+        &.fc-pos-br {
+            bottom: $medium-corner-size/12;
+            right: $medium-corner-size/12;
+
+            & + div {
+                bottom: ($medium-corner-size/2) - $medium-corner-size;
+                right: ($medium-corner-size/2) - $medium-corner-size;
+            }
+        }
+        // bottom left controller - medium size
+        &.fc-pos-bl {
+            bottom: $medium-corner-size/12;
+            left: $medium-corner-size/12;
+
+            & + div {
+                bottom: ($medium-corner-size/2) - $medium-corner-size;
                 left: ($medium-corner-size/2) - $medium-corner-size;
             }
         }
@@ -87,7 +132,7 @@ html, body {
 // large corner size
 .fork-corner {
     &.fc-size-large {
-        // top right controller
+        // top right controller - large size
         &.fc-pos-tr {
             top: $large-corner-size/12;
             right: $large-corner-size/12;
@@ -97,13 +142,33 @@ html, body {
                 right: ($large-corner-size/2) - $large-corner-size;
             }
         }
-        // top left controller
+        // top left controller - large size
         &.fc-pos-tl {
             top: $large-corner-size/12;
             left: $large-corner-size/12;
 
             & + div {
                 top: ($large-corner-size/2) - $large-corner-size;
+                left: ($large-corner-size/2) - $large-corner-size;
+            }
+        }
+        // bottom right controller - large size
+        &.fc-pos-br {
+            bottom: $large-corner-size/12;
+            right: $large-corner-size/12;
+
+            & + div {
+                bottom: ($large-corner-size/2) - $large-corner-size;
+                right: ($large-corner-size/2) - $large-corner-size;
+            }
+        }
+        // bottom left controller - large size
+        &.fc-pos-bl {
+            bottom: $large-corner-size/12;
+            left: $large-corner-size/12;
+
+            & + div {
+                bottom: ($large-corner-size/2) - $large-corner-size;
                 left: ($large-corner-size/2) - $large-corner-size;
             }
         }
@@ -165,6 +230,44 @@ html, body {
     // top left element
     &.fc-pos-tl + div {
         top: ($default-corner-size/2) - $default-corner-size;
+        left: ($default-corner-size/2) - $default-corner-size;
+        transform: rotate(45deg);
+    }
+    // bottom right controller
+    &.fc-pos-br {
+        bottom: $default-corner-size/12;
+        right: $default-corner-size/12;
+
+        &.fc-animate-default {
+            transition: 0.5s;
+            &:hover {
+                transform: rotate(45deg);
+                transition: 0.5s;
+            }
+        }
+    }
+    // bottom right element
+    &.fc-pos-br + div {
+        bottom: ($default-corner-size/2) - $default-corner-size;
+        right: ($default-corner-size/2) - $default-corner-size;
+        transform: rotate(45deg);
+    }
+    // bottom left controller
+    &.fc-pos-bl {
+        bottom: $default-corner-size/12;
+        left: $default-corner-size/12;
+
+        &.fc-animate-default {
+            transition: 0.5s;
+            &:hover {
+                transform: rotate(-45deg);
+                transition: 0.5s;
+            }
+        }
+    }
+    // bottom left element
+    &.fc-pos-bl + div {
+        bottom: ($default-corner-size/2) - $default-corner-size;
         left: ($default-corner-size/2) - $default-corner-size;
         transform: rotate(45deg);
     }
