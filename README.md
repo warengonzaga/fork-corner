@@ -159,7 +159,7 @@ If you're facing a problem in using Fork Corner please let me know by creating a
 
 Wanna see other projects I made? Join today!
 
-[![Community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner3)](https://bmc.xyz/warengonzaga)
+[![Community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner3)](https://wrngnz.ga/discord)
 
 ## License
 
