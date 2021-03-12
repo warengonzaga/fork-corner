@@ -10,8 +10,15 @@ body {
 
 #fork-corner {
     z-index: 105;
-    position: absolute;
 }
+
+.fork-corner + div {
+    width: $default-corner-size;
+    height: $default-corner-size;
+    z-index: 100;
+}
+
+/** fork corner sizes **/
 
 // small corner size
 .fork-corner {
@@ -187,18 +194,14 @@ body {
     }
 }
 
-.fork-corner + div {
-    position: absolute;
-    width: $default-corner-size;
-    height: $default-corner-size;
-    z-index: 100;
-}
-
+/** fork corner positions and behavior **/
 .fork-corner {
-    // top right controller
+
+    // top right controller - normal
     &.fc-pos-tr {
         top: $default-corner-size/12;
         right: $default-corner-size/12;
+        position: absolute;
 
         &.fc-animate-default {
             transition: 0.5s;
@@ -208,14 +211,58 @@ body {
             }
         }
     }
-    // top right element
+    // top right element - normal
     &.fc-pos-tr + div {
         top: ($default-corner-size/2) - $default-corner-size;
         right: ($default-corner-size/2) - $default-corner-size;
         transform: rotate(45deg);
+        position: absolute;
     }
-    // top left controller
+    // top right controller - sticky
+    &.fc-pos-tr-sticky {
+        top: $default-corner-size/12;
+        right: $default-corner-size/12;
+        position: fixed;
+
+        &.fc-animate-default {
+            transition: 0.5s;
+            &:hover {
+                transform: rotate(45deg);
+                transition: 0.5s;
+            }
+        }
+    }
+    // top right element - sticky
+    &.fc-pos-tr-sticky + div {
+        top: ($default-corner-size/2) - $default-corner-size;
+        right: ($default-corner-size/2) - $default-corner-size;
+        transform: rotate(45deg);
+        position: fixed;
+    }
+
+    // top left controller - normal
     &.fc-pos-tl {
+        top: $default-corner-size/12;
+        left: $default-corner-size/12;
+        position: absolute;
+
+        &.fc-animate-default {
+            transition: 0.5s;
+            &:hover {
+                transform: rotate(-45deg);
+                transition: 0.5s;
+            }
+        }
+    }
+    // top left element - normal
+    &.fc-pos-tl + div {
+        top: ($default-corner-size/2) - $default-corner-size;
+        left: ($default-corner-size/2) - $default-corner-size;
+        transform: rotate(45deg);
+        position: absolute;
+    }
+    // top left controller - sticky
+    &.fc-pos-tl-sticky {
         top: $default-corner-size/12;
         left: $default-corner-size/12;
 
@@ -227,16 +274,18 @@ body {
             }
         }
     }
-    // top left element
-    &.fc-pos-tl + div {
+    // top left element - sticky
+    &.fc-pos-tl-sticky + div {
         top: ($default-corner-size/2) - $default-corner-size;
         left: ($default-corner-size/2) - $default-corner-size;
         transform: rotate(45deg);
     }
+
     // bottom right controller
     &.fc-pos-br {
         bottom: $default-corner-size/12;
         right: $default-corner-size/12;
+        position: fixed;
 
         &.fc-animate-default {
             transition: 0.5s;
@@ -251,11 +300,14 @@ body {
         bottom: ($default-corner-size/2) - $default-corner-size;
         right: ($default-corner-size/2) - $default-corner-size;
         transform: rotate(45deg);
+        position: fixed;
     }
+
     // bottom left controller
     &.fc-pos-bl {
         bottom: $default-corner-size/12;
         left: $default-corner-size/12;
+        position: fixed;
 
         &.fc-animate-default {
             transition: 0.5s;
@@ -270,8 +322,11 @@ body {
         bottom: ($default-corner-size/2) - $default-corner-size;
         left: ($default-corner-size/2) - $default-corner-size;
         transform: rotate(45deg);
+        position: fixed;
     }
 }
+
+/** fork corner themes **/
 
 // default theme
 .fork-corner {
