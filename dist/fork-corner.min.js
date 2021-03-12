@@ -1,10 +1,10 @@
 /*!
  * Fork Corner - https://fork-corner.warengonzaga.com
  * A modern and global open source fork corner label for your project's landing page.
- * Version: 1.0.1
+ * Version: 1.1.0
  * Github: https://github.com/WarenGonzaga/fork-corner
  * Licensed Under The MIT License: http://opensource.org/licenses/MIT
- * Copyright (c) 2020 Waren Gonzaga
+ * Copyright (c) 2021 Waren Gonzaga
  *
  * Facebook: @warengonzagaofficial
  * Twitter: @warengonzaga

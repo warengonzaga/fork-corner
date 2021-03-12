@@ -1,10 +1,10 @@
 /*!
  * Fork Corner - https://fork-corner.warengonzaga.com
  * A modern and global open source fork corner label for your project's landing page.
- * Version: 1.0.1
+ * Version: 1.1.0
  * Github: https://github.com/WarenGonzaga/fork-corner
  * Licensed Under The MIT License: http://opensource.org/licenses/MIT
- * Copyright (c) 2020 Waren Gonzaga
+ * Copyright (c) 2021 Waren Gonzaga
  *
  * Facebook: @warengonzagaofficial
  * Twitter: @warengonzaga
@@ -21,9 +21,14 @@ body {
   margin: 0; }
 
 #fork-corner {
-  z-index: 105;
-  position: absolute; }
+  z-index: 105; }
 
+.fork-corner + div {
+  width: 200px;
+  height: 200px;
+  z-index: 100; }
+
+/** fork corner sizes **/
 .fork-corner.fc-size-small.fc-pos-tr {
   top: 12.5px;
   right: 12.5px; }
@@ -138,15 +143,11 @@ body {
   width: 300px;
   height: 300px; }
 
-.fork-corner + div {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  z-index: 100; }
-
+/** fork corner positions and behavior **/
 .fork-corner.fc-pos-tr {
   top: 16.66667px;
-  right: 16.66667px; }
+  right: 16.66667px;
+  position: absolute; }
   .fork-corner.fc-pos-tr.fc-animate-default {
     transition: 0.5s; }
     .fork-corner.fc-pos-tr.fc-animate-default:hover {
@@ -156,11 +157,29 @@ body {
 .fork-corner.fc-pos-tr + div {
   top: -100px;
   right: -100px;
-  transform: rotate(45deg); }
+  transform: rotate(45deg);
+  position: absolute; }
+
+.fork-corner.fc-pos-tr-sticky {
+  top: 16.66667px;
+  right: 16.66667px;
+  position: fixed; }
+  .fork-corner.fc-pos-tr-sticky.fc-animate-default {
+    transition: 0.5s; }
+    .fork-corner.fc-pos-tr-sticky.fc-animate-default:hover {
+      transform: rotate(45deg);
+      transition: 0.5s; }
+
+.fork-corner.fc-pos-tr-sticky + div {
+  top: -100px;
+  right: -100px;
+  transform: rotate(45deg);
+  position: fixed; }
 
 .fork-corner.fc-pos-tl {
   top: 16.66667px;
-  left: 16.66667px; }
+  left: 16.66667px;
+  position: absolute; }
   .fork-corner.fc-pos-tl.fc-animate-default {
     transition: 0.5s; }
     .fork-corner.fc-pos-tl.fc-animate-default:hover {
@@ -170,11 +189,27 @@ body {
 .fork-corner.fc-pos-tl + div {
   top: -100px;
   left: -100px;
+  transform: rotate(45deg);
+  position: absolute; }
+
+.fork-corner.fc-pos-tl-sticky {
+  top: 16.66667px;
+  left: 16.66667px; }
+  .fork-corner.fc-pos-tl-sticky.fc-animate-default {
+    transition: 0.5s; }
+    .fork-corner.fc-pos-tl-sticky.fc-animate-default:hover {
+      transform: rotate(-45deg);
+      transition: 0.5s; }
+
+.fork-corner.fc-pos-tl-sticky + div {
+  top: -100px;
+  left: -100px;
   transform: rotate(45deg); }
 
 .fork-corner.fc-pos-br {
   bottom: 16.66667px;
-  right: 16.66667px; }
+  right: 16.66667px;
+  position: fixed; }
   .fork-corner.fc-pos-br.fc-animate-default {
     transition: 0.5s; }
     .fork-corner.fc-pos-br.fc-animate-default:hover {
@@ -184,11 +219,13 @@ body {
 .fork-corner.fc-pos-br + div {
   bottom: -100px;
   right: -100px;
-  transform: rotate(45deg); }
+  transform: rotate(45deg);
+  position: fixed; }
 
 .fork-corner.fc-pos-bl {
   bottom: 16.66667px;
-  left: 16.66667px; }
+  left: 16.66667px;
+  position: fixed; }
   .fork-corner.fc-pos-bl.fc-animate-default {
     transition: 0.5s; }
     .fork-corner.fc-pos-bl.fc-animate-default:hover {
@@ -198,8 +235,10 @@ body {
 .fork-corner.fc-pos-bl + div {
   bottom: -100px;
   left: -100px;
-  transform: rotate(45deg); }
+  transform: rotate(45deg);
+  position: fixed; }
 
+/** fork corner themes **/
 .fork-corner.fc-theme-default {
   text-decoration: none; }
   .fork-corner.fc-theme-default > i {
