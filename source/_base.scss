@@ -6,6 +6,11 @@ html, body {
 
 body {
     margin: 0;
+
+    a{
+        text-decoration: none;
+        color: currentColor;
+    }
 }
 
 #fork-corner {
