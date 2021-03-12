@@ -36,7 +36,7 @@ const data = {
         ' * <%= description %>',
         ' * Version: <%= version %>',
         ' * Github: <%= github %>',
-        ' * Licensed Under The MIT License: http://opensource.org/licenses/MIT',
+        ' * Licensed under The MIT License: http://opensource.org/licenses/MIT',
         ' * Copyright (c) <%= new Date().getFullYear() %> <%= author %>',
         ' *',
         ' * Facebook: @warengonzagaofficial',
