@@ -94,6 +94,8 @@ Class to position the Fork Corner on your webpage. By default, the position is _
 |-------|----------|
 | ``fc-pos-tr`` | Top, Right |
 | ``fc-pos-tl`` | Top, Left |
+| ``fc-pos-tr-sticky`` | Top, Right, Sticky |
+| ``fc-pos-tl-sticky`` | Top, Left, Sticky |
 | ``fc-pos-br`` | Bottom, Right |
 | ``fc-pos-bl`` | Bottom, Left |
 
@@ -137,6 +139,7 @@ Class to select pre-defined corner size. By default, it is set as 200px. To set 
 - _[animate.css](https://animate.style)_
 - _[daisy.js](https://daisyjs.warengonzaga.com)_
 - _[pufferpanel](https://pufferpanel.com)_
+- _[prynk](https://github.com/rexdavinci/Prynk)_
 - _Your project goes here_
 
 > Wanna see your project here? Let us know!
