@@ -81,7 +81,7 @@ or add it directly to your webpage using a CDN:
 After installing Fork Corner simply add this one line of code to the ``<body>`` of your webpage:
 
 ```html
-<a href="https://github.com/user/repo" target="_blank" id="fork-corner" class="fork-corner fc-pos-tr fc-animate-default fc-theme-default"></a>
+<a href="https://github.com/user/repo" target="_blank" id="fork-corner" class="fork-corner fc-pos-tr fc-animate fc-theme-git"></a>
 ```
 
 Fork Corner uses _``fork-corner``_ as ID to identify which element should be use in creating the fork corner. The class _``fork-corner``_ is use to identify which element to be controlled by the class. We have few important classes to quickly customize the fork corner's look and feel.
@@ -96,8 +96,8 @@ Class to position the Fork Corner on your webpage. By default, the position is _
 | ``fc-pos-tl`` | Top, Left |
 | ``fc-pos-tr-sticky`` | Top, Right, Sticky |
 | ``fc-pos-tl-sticky`` | Top, Left, Sticky |
-| ``fc-pos-br`` | Bottom, Right |
-| ``fc-pos-bl`` | Bottom, Left |
+| ``fc-pos-br`` | Bottom, Right _(sticky by default)_ |
+| ``fc-pos-bl`` | Bottom, Left _(sticky by default)_ |
 
 ### Animation Class
 
@@ -105,7 +105,12 @@ Class to animate the Fork Corner on your webpage. By default, when you hover you
 
 | Class | Animation |
 |-------|-----------|
-| ``fc-animate-default`` | Icon rotation on cursor hover |
+| ``fc-animate`` | Icon rotation on cursor hover |
+| ``fc-animate-slideup`` | Icon slide up on cursor hover |
+| ``fc-animate-slidedown`` | Icon slide down on cursor hover |
+| ``fc-animate-grow`` | Icon grow on cursor hover |
+| ``fc-animate-shrink`` | Icon shrink on cursor hover |
+| ``fc-animate-fade`` | Icon fade out on cursor hover |
 
 > More animation will come, have animation in mind? Contribute today!
 
@@ -115,7 +120,7 @@ Class to select pre-defined theme or style you want to use. By default, it will 
 
 | Class | Theme/Brand |
 |-------|-----------|
-| ``fc-theme-default`` | Git Logo |
+| ``fc-theme-animate`` | Git Logo |
 | ``fc-theme-github`` | GitHub Logo |
 | ``fc-theme-gitlab`` | Gitlab Logo |
 | ``fc-theme-bitbucket`` | Bitbucket Logo |
