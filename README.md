@@ -2,6 +2,8 @@
 
 [![by Waren Gonzaga](https://img.shields.io/badge/by-Waren%20Gonzaga-blue.svg?longCache=true&style=flat-square)](https://bmc.xyz/warengonzaga) ![Version](https://img.shields.io/github/release/WarenGonzaga/fork-corner.svg?style=flat-square) ![Stars](https://img.shields.io/github/stars/WarenGonzaga/fork-corner.svg?style=flat-square) ![Size](https://img.shields.io/github/repo-size/warengonzaga/fork-corner?color=green&style=flat-square) ![NPM](https://img.shields.io/npm/dm/fork-corner?color=red&style=flat-square) ![jsdelivr](https://img.shields.io/jsdelivr/npm/hm/fork-corner?color=orange&style=flat-square) ![License](https://img.shields.io/github/license/WarenGonzaga/fork-corner.svg?style=flat-square)
 
+![Banner](./.github/img/fork-corner-github-banner.jpg)
+
 A modern and global open source fork corner label for your project's landing page.
 
 ## What is Fork Corner
@@ -10,7 +12,8 @@ A modern approach to the old style of adding "Fork Me" ribbon or label in an ope
 
 ## Demo
 
-Visit [fork-corner.warengonzaga.com](https://fork-corner.warengonzaga.com) for official demo.
+Visit **[fork-corner.warengonzaga.com](https://fork-corner.warengonzaga.com)** for the demo.
+Watch the vide demo via **[Waren Gonzaga's YouTube Channel](https://www.youtube.com/watch?v=XYUxx-BvSYM)**.
 
 > Fork corner generator page coming soon...
 
