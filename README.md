@@ -13,7 +13,7 @@ A modern approach to the old style of adding "Fork Me" ribbon or label in an ope
 ## Demo
 
 Visit **[fork-corner.warengonzaga.com](https://fork-corner.warengonzaga.com)** for the demo.
-Watch the vide demo via **[Waren Gonzaga's YouTube Channel](https://www.youtube.com/watch?v=XYUxx-BvSYM)**.
+Watch the video demo via **[Waren Gonzaga's YouTube Channel](https://www.youtube.com/watch?v=XYUxx-BvSYM)**.
 
 > Fork corner generator page coming soon...
 
