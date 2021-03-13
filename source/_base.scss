@@ -18,53 +18,78 @@ body {
     z-index: 100;
 }
 
-/** fork corner sizes **/
-
-// small corner size
+/** || fork corner sizes **/
 .fork-corner {
+    // small corner size
     &.fc-size-small {
-        // top right controller
+        // top right controller - small
         &.fc-pos-tr {
             top: $small-corner-size/12;
             right: $small-corner-size/12;
-
+            position: absolute;
             & + div {
                 top: ($small-corner-size/2) - $small-corner-size;
                 right: ($small-corner-size/2) - $small-corner-size;
+                position: absolute;
             }
         }
-        // top left controller
+        // top right controller - small - sticky
+        &.fc-pos-tr-sticky {
+            top: $small-corner-size/12;
+            right: $small-corner-size/12;
+            position: fixed;
+            & + div {
+                top: ($small-corner-size/2) - $small-corner-size;
+                right: ($small-corner-size/2) - $small-corner-size;
+                position: fixed;
+            }
+        }
+        // top left controller - small
         &.fc-pos-tl {
             top: $small-corner-size/12;
             left: $small-corner-size/12;
-
+            position: absolute;
             & + div {
                 top: ($small-corner-size/2) - $small-corner-size;
                 left: ($small-corner-size/2) - $small-corner-size;
+                position: absolute;
             }
         }
-        // bottom right controller - small size
+        // top left controller - small - sticky
+        &.fc-pos-tl-sticky {
+            top: $small-corner-size/12;
+            left: $small-corner-size/12;
+            position: fixed;
+            & + div {
+                top: ($small-corner-size/2) - $small-corner-size;
+                left: ($small-corner-size/2) - $small-corner-size;
+                position: fixed;
+            }
+        }
+        // bottom right controller - small
         &.fc-pos-br {
             bottom: $small-corner-size/12;
             right: $small-corner-size/12;
-
+            position: fixed;
             & + div {
                 bottom: ($small-corner-size/2) - $small-corner-size;
                 right: ($small-corner-size/2) - $small-corner-size;
+                position: fixed;
             }
         }
-        // top left controller - small size
+        // bottom left controller - small
         &.fc-pos-bl {
             bottom: $small-corner-size/12;
             left: $small-corner-size/12;
-
+            position: fixed;
             & + div {
                 bottom: ($small-corner-size/2) - $small-corner-size;
                 left: ($small-corner-size/2) - $small-corner-size;
+                position: fixed;
             }
         }
         // corner theme
-        &.fc-theme-default > i,
+        &.fc-theme-git > i,
         &.fc-theme-github > i,
         &.fc-theme-gitlab > i,
         &.fc-theme-bitbucket > i {
@@ -76,53 +101,76 @@ body {
             height: $small-corner-size;
         }
     }
-}
-
-// medium corner size
-.fork-corner {
+    // medium corner size
     &.fc-size-medium {
         // top right controller - medium
         &.fc-pos-tr {
             top: $medium-corner-size/12;
             right: $medium-corner-size/12;
-
+            position: absolute;
             & + div {
                 top: ($medium-corner-size/2) - $medium-corner-size;
                 right: ($medium-corner-size/2) - $medium-corner-size;
+                position: absolute;
             }
         }
-        // top left controller - medium size
+        // top right controller - medium - sticky
+        &.fc-pos-tr-sticky {
+            top: $medium-corner-size/12;
+            right: $medium-corner-size/12;
+            position: fixed;
+            & + div {
+                top: ($medium-corner-size/2) - $medium-corner-size;
+                right: ($medium-corner-size/2) - $medium-corner-size;
+                position: fixed;
+            }
+        }
+        // top left controller - medium
         &.fc-pos-tl {
             top: $medium-corner-size/12;
             left: $medium-corner-size/12;
-
+            position: absolute;
             & + div {
                 top: ($medium-corner-size/2) - $medium-corner-size;
                 left: ($medium-corner-size/2) - $medium-corner-size;
+                position: absolute;
             }
         }
-        // bottom right controller - medium size
+        // top left controller - medium - sticky
+        &.fc-pos-tl-sticky {
+            top: $medium-corner-size/12;
+            left: $medium-corner-size/12;
+            position: fixed;
+            & + div {
+                top: ($medium-corner-size/2) - $medium-corner-size;
+                left: ($medium-corner-size/2) - $medium-corner-size;
+                position: fixed;
+            }
+        }
+        // bottom right controller - medium
         &.fc-pos-br {
             bottom: $medium-corner-size/12;
             right: $medium-corner-size/12;
-
+            position: fixed;
             & + div {
                 bottom: ($medium-corner-size/2) - $medium-corner-size;
                 right: ($medium-corner-size/2) - $medium-corner-size;
+                position: fixed;
             }
         }
-        // bottom left controller - medium size
+        // bottom left controller - medium
         &.fc-pos-bl {
             bottom: $medium-corner-size/12;
             left: $medium-corner-size/12;
-
+            position: fixed;
             & + div {
                 bottom: ($medium-corner-size/2) - $medium-corner-size;
                 left: ($medium-corner-size/2) - $medium-corner-size;
+                position: fixed;
             }
         }
         // corner theme
-        &.fc-theme-default > i,
+        &.fc-theme-git > i,
         &.fc-theme-github > i,
         &.fc-theme-gitlab > i,
         &.fc-theme-bitbucket > i {
@@ -134,53 +182,76 @@ body {
             height: $medium-corner-size;
         }
     }
-}
-
-// large corner size
-.fork-corner {
+    // large corner size
     &.fc-size-large {
-        // top right controller - large size
+        // top right controller - large
         &.fc-pos-tr {
             top: $large-corner-size/12;
             right: $large-corner-size/12;
-
+            position: absolute;
             & + div {
                 top: ($large-corner-size/2) - $large-corner-size;
                 right: ($large-corner-size/2) - $large-corner-size;
+                position: absolute;
             }
         }
-        // top left controller - large size
+        // top right controller - large - sticky
+        &.fc-pos-tr-sticky {
+            top: $large-corner-size/12;
+            right: $large-corner-size/12;
+            position: fixed;
+            & + div {
+                top: ($large-corner-size/2) - $large-corner-size;
+                right: ($large-corner-size/2) - $large-corner-size;
+                position: fixed;
+            }
+        }
+        // top left controller - large
         &.fc-pos-tl {
             top: $large-corner-size/12;
             left: $large-corner-size/12;
-
+            position: absolute;
             & + div {
                 top: ($large-corner-size/2) - $large-corner-size;
                 left: ($large-corner-size/2) - $large-corner-size;
+                position: absolute;
             }
         }
-        // bottom right controller - large size
+        // top left controller - large - sticky
+        &.fc-pos-tl-sticky {
+            top: $large-corner-size/12;
+            left: $large-corner-size/12;
+            position: fixed;
+            & + div {
+                top: ($large-corner-size/2) - $large-corner-size;
+                left: ($large-corner-size/2) - $large-corner-size;
+                position: fixed;
+            }
+        }
+        // bottom right controller - large
         &.fc-pos-br {
             bottom: $large-corner-size/12;
             right: $large-corner-size/12;
-
+            position: fixed;
             & + div {
                 bottom: ($large-corner-size/2) - $large-corner-size;
                 right: ($large-corner-size/2) - $large-corner-size;
+                position: fixed;
             }
         }
-        // bottom left controller - large size
+        // bottom left controller - large
         &.fc-pos-bl {
             bottom: $large-corner-size/12;
             left: $large-corner-size/12;
-
+            position: fixed;
             & + div {
                 bottom: ($large-corner-size/2) - $large-corner-size;
                 left: ($large-corner-size/2) - $large-corner-size;
+                position: fixed;
             }
         }
         // corner theme
-        &.fc-theme-default > i,
+        &.fc-theme-git > i,
         &.fc-theme-github > i,
         &.fc-theme-gitlab > i,
         &.fc-theme-bitbucket > i {
@@ -194,91 +265,59 @@ body {
     }
 }
 
-/** fork corner positions and behavior **/
+/** || fork corner positions and behavior **/
 .fork-corner {
 
-    // top right controller - normal
+    // top right controller
     &.fc-pos-tr {
         top: $default-corner-size/12;
         right: $default-corner-size/12;
         position: absolute;
-
-        &.fc-animate-default {
-            transition: 0.5s;
-            &:hover {
-                transform: rotate(45deg);
-                transition: 0.5s;
-            }
+        & + div {
+            top: ($default-corner-size/2) - $default-corner-size;
+            right: ($default-corner-size/2) - $default-corner-size;
+            transform: rotate(45deg);
+            position: absolute;
         }
     }
-    // top right element - normal
-    &.fc-pos-tr + div {
-        top: ($default-corner-size/2) - $default-corner-size;
-        right: ($default-corner-size/2) - $default-corner-size;
-        transform: rotate(45deg);
-        position: absolute;
-    }
+
     // top right controller - sticky
     &.fc-pos-tr-sticky {
         top: $default-corner-size/12;
         right: $default-corner-size/12;
         position: fixed;
-
-        &.fc-animate-default {
-            transition: 0.5s;
-            &:hover {
-                transform: rotate(45deg);
-                transition: 0.5s;
-            }
+        & + div {
+            top: ($default-corner-size/2) - $default-corner-size;
+            right: ($default-corner-size/2) - $default-corner-size;
+            transform: rotate(45deg);
+            position: fixed;
         }
     }
-    // top right element - sticky
-    &.fc-pos-tr-sticky + div {
-        top: ($default-corner-size/2) - $default-corner-size;
-        right: ($default-corner-size/2) - $default-corner-size;
-        transform: rotate(45deg);
-        position: fixed;
-    }
 
-    // top left controller - normal
+    // top left controller
     &.fc-pos-tl {
         top: $default-corner-size/12;
         left: $default-corner-size/12;
         position: absolute;
-
-        &.fc-animate-default {
-            transition: 0.5s;
-            &:hover {
-                transform: rotate(-45deg);
-                transition: 0.5s;
-            }
+        & + div {
+            top: ($default-corner-size/2) - $default-corner-size;
+            left: ($default-corner-size/2) - $default-corner-size;
+            transform: rotate(45deg);
+            position: absolute;
         }
     }
-    // top left element - normal
-    &.fc-pos-tl + div {
-        top: ($default-corner-size/2) - $default-corner-size;
-        left: ($default-corner-size/2) - $default-corner-size;
-        transform: rotate(45deg);
-        position: absolute;
-    }
+
     // top left controller - sticky
     &.fc-pos-tl-sticky {
         top: $default-corner-size/12;
         left: $default-corner-size/12;
-
-        &.fc-animate-default {
-            transition: 0.5s;
-            &:hover {
-                transform: rotate(-45deg);
-                transition: 0.5s;
-            }
+        position: fixed;
+        & + div {
+            top: ($default-corner-size/2) - $default-corner-size;
+            left: ($default-corner-size/2) - $default-corner-size;
+            transform: rotate(45deg);
+            position: fixed;
         }
-    }
-    // top left element - sticky
-    &.fc-pos-tl-sticky + div {
-        top: ($default-corner-size/2) - $default-corner-size;
-        left: ($default-corner-size/2) - $default-corner-size;
-        transform: rotate(45deg);
     }
 
     // bottom right controller
@@ -286,21 +325,12 @@ body {
         bottom: $default-corner-size/12;
         right: $default-corner-size/12;
         position: fixed;
-
-        &.fc-animate-default {
-            transition: 0.5s;
-            &:hover {
-                transform: rotate(45deg);
-                transition: 0.5s;
-            }
+        & + div {
+            bottom: ($default-corner-size/2) - $default-corner-size;
+            right: ($default-corner-size/2) - $default-corner-size;
+            transform: rotate(45deg);
+            position: fixed;
         }
-    }
-    // bottom right element
-    &.fc-pos-br + div {
-        bottom: ($default-corner-size/2) - $default-corner-size;
-        right: ($default-corner-size/2) - $default-corner-size;
-        transform: rotate(45deg);
-        position: fixed;
     }
 
     // bottom left controller
@@ -308,8 +338,34 @@ body {
         bottom: $default-corner-size/12;
         left: $default-corner-size/12;
         position: fixed;
+        & + div {
+            bottom: ($default-corner-size/2) - $default-corner-size;
+            left: ($default-corner-size/2) - $default-corner-size;
+            transform: rotate(45deg);
+            position: fixed;
+        }
+    }
+}
 
-        &.fc-animate-default {
+/** || fork corner animations **/
+.fork-corner {
+    &.fc-pos-tr,
+    &.fc-pos-tr-sticky,
+    &.fc-pos-br {
+        // rotate to right
+        &.fc-animate {
+            transition: 0.5s;
+            &:hover {
+                transform: rotate(45deg);
+                transition: 0.5s;
+            }
+        }
+    }
+    &.fc-pos-tl,
+    &.fc-pos-tl-sticky,
+    &.fc-pos-bl {
+        // rotate to left
+        &.fc-animate {
             transition: 0.5s;
             &:hover {
                 transform: rotate(-45deg);
@@ -317,69 +373,105 @@ body {
             }
         }
     }
-    // bottom left element
-    &.fc-pos-bl + div {
-        bottom: ($default-corner-size/2) - $default-corner-size;
-        left: ($default-corner-size/2) - $default-corner-size;
-        transform: rotate(45deg);
-        position: fixed;
+    &.fc-pos-tr,
+    &.fc-pos-tr-sticky,
+    &.fc-pos-tl,
+    &.fc-pos-tl-sticky,
+    &.fc-pos-br,
+    &.fc-pos-bl {
+        // slide up
+        &.fc-animate-slideup {
+            transition: 0.3s;
+            transform: translate3d(0, 0, 0);
+            &:hover {
+                transform: translate3d(0, -10%, 0);
+                visibility: visible;
+                transition: 0.3s;
+            }
+        }
+        // slide down
+        &.fc-animate-slidedown {
+            transition: 0.3s;
+            transform: translate3d(0, 0, 0);
+            &:hover {
+                transform: translate3d(0, 10%, 0);
+                visibility: visible;
+                transition: 0.3s;
+            }
+        }
+        // grow
+        &.fc-animate-grow {
+            transition: 0.5s;
+            &:hover {
+                transform: scale(1.2);
+                visibility: visible;
+                transition: 0.5s;
+            }
+        }
+        // shrink
+        &.fc-animate-shrink {
+            transition: 0.5s;
+            &:hover {
+                transform: scale(0.8);
+                visibility: visible;
+                transition: 0.5s;
+            }
+        }
+        // fade
+        &.fc-animate-fade {
+            transition: 0.5s;
+            &:hover {
+                opacity: 0.5;
+                transition: 0.5s;
+            }
+        }
     }
 }
 
-/** fork corner themes **/
-
-// default theme
+/** || fork corner themes **/
 .fork-corner {
-    &.fc-theme-default {
+    // default git theme and icon
+    &.fc-theme-git {
         text-decoration: none;
         > i {
             font-size: $default-corner-size/4;
             color: $default-icon-color;
         }
+        & + div {
+            background-color: $default-bg-color;
+        }
     }
-    &.fc-theme-default + div {
-        background-color: $default-bg-color;
-    }
-}
-
-// github theme
-.fork-corner {
+    // github theme and icon
     &.fc-theme-github {
         text-decoration: none;
         > i {
             font-size: $default-corner-size/4;
             color: $github-icon-color;
         }
+        & + div {
+            background-color: $github-bg-color;
+        }
     }
-    &.fc-theme-github + div {
-        background-color: $github-bg-color;
-    }
-}
-
-// gitlab theme
-.fork-corner {
+    // gitlab theme and icon
     &.fc-theme-gitlab {
         text-decoration: none;
         > i {
             font-size: $default-corner-size/4;
             color: $gitlab-icon-color;
         }
+        & + div {
+            background-color: $gitlab-bg-color;
+        }
     }
-    &.fc-theme-gitlab + div {
-        background-color: $gitlab-bg-color;
-    }
-}
-
-// bitbucket theme
-.fork-corner {
+    // bitbucket theme and icon
     &.fc-theme-bitbucket {
         text-decoration: none;
         > i {
             font-size: $default-corner-size/4;
             color: $bitbucket-icon-color;
         }
-    }
-    &.fc-theme-bitbucket + div {
-        background-color: $bitbucket-bg-color;
+        & + div {
+            background-color: $bitbucket-bg-color;
+        }
     }
 }

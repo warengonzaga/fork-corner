@@ -10,7 +10,7 @@ const fcDevicon = document.createElement('link');
 const fcElement = document.createElement('div');
 
 // default icon and theme
-if(document.querySelector('.fc-theme-default')){
+if(document.querySelector('.fc-theme-git')){
     fcIcon.setAttribute('class','devicon-git-plain');
 }
 
