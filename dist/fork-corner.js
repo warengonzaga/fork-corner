@@ -3,7 +3,7 @@
  * A modern and global open source fork corner label for your project's landing page.
  * Version: 1.1.0
  * Github: https://github.com/WarenGonzaga/fork-corner
- * Licensed Under The MIT License: http://opensource.org/licenses/MIT
+ * Licensed under The MIT License: http://opensource.org/licenses/MIT
  * Copyright (c) 2021 Waren Gonzaga
  *
  * Facebook: @warengonzagaofficial
@@ -24,7 +24,7 @@ const fcDevicon = document.createElement('link');
 const fcElement = document.createElement('div');
 
 // default icon and theme
-if(document.querySelector('.fc-theme-default')){
+if(document.querySelector('.fc-theme-git')){
     fcIcon.setAttribute('class','devicon-git-plain');
 }
 
