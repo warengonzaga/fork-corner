@@ -18,6 +18,7 @@ html, body {
   position: relative; }
 
 body {
+  margin: 0;
   display: grid;
   place-items: center;
   height: 100vh;
