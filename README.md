@@ -1,6 +1,7 @@
-# Fork Corner [![Rate on Openbase](https://badges.openbase.io/js/rating/fork-corner.svg)](https://openbase.io/js/fork-corner?utm_source=embedded&utm_medium=badge&utm_campaign=rate-badge)
+# Fork Corner [![openbase](https://badges.openbase.io/js/rating/fork-corner.svg)](https://openbase.io/js/fork-corner?utm_source=embedded&utm_medium=badge&utm_campaign=rate-badge) [![huntr](https://cdn.huntr.dev/huntr_security_badge_mono.svg)](https://huntr.dev)
 
-[![by Waren Gonzaga](https://img.shields.io/badge/by-Waren%20Gonzaga-blue.svg?longCache=true&style=flat-square)](https://bmc.xyz/warengonzaga) ![Version](https://img.shields.io/github/release/WarenGonzaga/fork-corner.svg?style=flat-square) ![Stars](https://img.shields.io/github/stars/WarenGonzaga/fork-corner.svg?style=flat-square) ![Size](https://img.shields.io/github/repo-size/warengonzaga/fork-corner?color=green&style=flat-square) ![NPM](https://img.shields.io/npm/dm/fork-corner?color=red&style=flat-square) ![jsdelivr](https://img.shields.io/jsdelivr/npm/hm/fork-corner?color=orange&style=flat-square) ![License](https://img.shields.io/github/license/WarenGonzaga/fork-corner.svg?style=flat-square)
+
+[![created by](https://img.shields.io/badge/created%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=flat-square)](https://github.com/warengonzaga) [![discord](https://img.shields.io/discord/659684980137656340?color=%235865F2&label=discord&logo=discord&logoColor=white&style=flat-square)](https://wrngnz.ga/discord) [![release](https://img.shields.io/github/release/warengonzaga/fork-corner.svg?style=flat-square)](https://github.com/warengonzaga/fork-corner/releases) [![star](https://img.shields.io/github/stars/warengonzaga/fork-corner.svg?style=flat-square)](https://github.com/warengonzaga/fork-corner/stargazers) ![Size](https://img.shields.io/github/repo-size/warengonzaga/fork-corner?color=green&style=flat-square) ![NPM](https://img.shields.io/npm/dm/fork-corner?color=red&style=flat-square) ![jsdelivr](https://img.shields.io/jsdelivr/npm/hm/fork-corner?color=orange&style=flat-square) [![license](https://img.shields.io/github/license/warengonzaga/fork-corner.svg?style=flat-square)](https://github.com/warengonzaga/fork-corner/blob/main/license)
 
 ![Banner](./.github/img/fork-corner-github-banner.jpg)
 
@@ -10,14 +11,20 @@ A modern and global open source fork corner label for your project's landing pag
 
 A modern approach to the old style of adding "Fork Me" ribbon or label in an open source project's landing page.
 
-## Demo
+## 😎 Demo
 
 Visit **[fork-corner.warengonzaga.com](https://fork-corner.warengonzaga.com)** for the demo.
 Watch the video demo via **[Waren Gonzaga's YouTube Channel](https://www.youtube.com/watch?v=XYUxx-BvSYM)**.
 
 > Fork corner generator page coming soon...
 
-## Features
+## 📖 Documentation
+
+The complete documentation can be found here:
+
+[![docs](https://img.shields.io/badge/Docs-docs.warengonzaga.com/fork--corner-blue.svg?longCache=true&style=for-the-badge)](https://docs.warengonzaga.com/fork-corner)
+
+## ⚡ Features
 
 <!-- markdownlint-disable MD033 MD014 -->
 
@@ -60,7 +67,7 @@ Watch the video demo via **[Waren Gonzaga's YouTube Channel](https://www.youtube
 
 ---
 
-## Installation
+## 📦 Installation
 
 Install with [npm](https://www.npmjs.com/package/fork-corner):
 
@@ -79,7 +86,7 @@ or add it directly to your webpage using a CDN:
 <script src="https://cdn.jsdelivr.net/npm/fork-corner/dist/fork-corner.min.js" defer></script>
 ```
 
-## Usage
+## 🕹️ Usage
 
 After installing Fork Corner simply add this one line of code to the ``<body>`` of your webpage:
 
@@ -142,46 +149,54 @@ Class to select pre-defined corner size. By default, it is set as 200px. To set 
 
 > If you're looking for specific size please edit the source file and build it.
 
-## Used By
-
-- _[animate.css](https://animate.style)_
-- _[daisy.js](https://daisyjs.warengonzaga.com)_
-- _[pufferpanel](https://pufferpanel.com)_
-- _[prynk](https://github.com/rexdavinci/Prynk)_
-- _Your project goes here_
-
-> Wanna see your project here? Let us know!
-
-## Badges
-
-Working on custom logo...
-
----
-
-## Contributing
+## 🎯 Contributing
 
 Contributions are welcome, create a pull request to this repo and I will review your code. Please consider to submit your pull request to the ```dev``` branch. Thank you!
 
-## Issues
+Read the project's [contributing guide](./contributing.md) for more info.
 
-If you're facing a problem in using Fork Corner please let me know by creating an issue in this github repository. I'm happy to help you! Don't forget to provide me some screenshot or error logs of it, thank you!
+## 💬 Discussions
 
-## Community
+For any questions, suggestions, ideas, or simply you want to share your experience in using this project, feel free to share and discuss it to the [community](https://github.com/warengonzaga/fork-corner/discussions)!
 
-Wanna see other projects I made? Join today!
+## 🐛 Issues
 
-[![Community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner3)](https://wrngnz.ga/discord)
+If you're facing a problem in using Fork Corner please let me know by [creating an issue here](https://github.com/warengonzaga/fork-corner/issues/new). I'm here to help you!
 
-## License
+## 🍀 Sponsors and Supporters
 
-Fork Corner is licensed under MIT - <https://opensource.org/licenses/MIT>
+[![BuyMeaCoffee](https://wrngnz.ga/badge-buymeacoffee)](https://buymeacoff.ee/warengonzaga) [![Vercel](https://wrngnz.ga/badge-vercel)](https://vercel.com) [![CircleCI](https://wrngnz.ga/badge-circleci)](https://vercel.com) [![GitBook](https://wrngnz.ga/badge-gitbook)](https://gitbook.io) [![Digital Ocean](https://wrngnz.ga/badge-digitalocean)](https://digitalocean.com) [![Deepware](https://wrngnz.ga/badge-deepware)](https://deepware.ai/) [![NOWPayments](https://wrngnz.ga/badge-nowpayments)](https://nowpayments.io) [![StackHawk](https://img.shields.io/badge/Stackhawk-%2300CBC6.svg?&style=for-the-badge&logoColor=white)](https://stackhawk.com)
 
-## Author
+> Love what I do? **[Send me some coffees](https://buymeacoff.ee/wareneutron)**!
+>
+> Your coffee donation and support will help me to continue working on open-source projects like this.
 
-Fork Corner is Developed and Maintained by **[Waren Gonzaga](https://github.com/warengonzaga)**
+## 🌏 Community
 
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?&style=flat-square&logo=facebook&logoColor=white)](https://facebook.com/warengonzagaofficial) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/warengonzaga) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/warengonzagaofficial) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?&style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/warengonzaga) [![DEV](https://img.shields.io/badge/DEV-%23000000.svg?&style=flat-square&logo=dev.to&logoColor=white)](https://dev.to/warengonzaga) [![BMC](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%23FFDD00.svg?&style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://dev.to/warengonzaga)
+Join to my growing tech community and get the latest updates!
+
+[![community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner2)](https://wrngnz.ga/discord) [![community](https://discordapp.com/api/guilds/694612151444439081/widget.png?style=banner2)](https://wareneutron.com/discord)
+
+## 📋 Code of Conduct
+
+Read the project's [code of conduct](./code_of_conduct.md).
+
+## 📃 License
+
+Fork Corner is licensed under [The MIT License](https://opensource.org/licenses/MIT).
+
+## 📝 Author
+
+Fork Corner is created by **[Waren Gonzaga](https://github.com/warengonzaga)**, with the help of awesome [contributors](https://github.com/warengonzaga/fork-corner/graphs/contributors).
 
 ---
 
-:computer: Made with :heart: and :coffee: by Waren Gonzaga with **YHWH** :pray:
+💻 Made with 💖 and ☕ by **Waren Gonzaga** with **YHWH** 🙏 | Citizen of Heaven
+
+[personal website]: https://warengonzaga.com
+[business website]: https://wgcompanyhq.com
+[biolink]: https://bio.link/warengonzaga
+[facebook]: https://facebook.com/warengonzagaofficial
+[twitter]: https://twitter.com/warengonzaga
+[instagram]: https://instagram.com/warengonzagaofficial
+[youtube]: https://youtube.com/warengonzaga
