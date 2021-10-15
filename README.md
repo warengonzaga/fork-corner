@@ -185,8 +185,6 @@ Read the project's [code of conduct](./code_of_conduct.md).
 
 Fork Corner is licensed under [The MIT License](https://opensource.org/licenses/MIT).
 
-See [notices](./notices.md) for additional license info.
-
 ## 📝 Author
 
 Fork Corner is created by **[Waren Gonzaga](https://github.com/warengonzaga)**, with the help of awesome [contributors](https://github.com/warengonzaga/fork-corner/graphs/contributors).
