@@ -1227,9 +1227,9 @@ estraverse@^4.1.1, estraverse@^4.2.0:
   integrity sha512-39nnKffWz8xN1BU/2c79n9nB9HDzo0niYUqx6xyqUnyoAnQyyWpOTdZEeiCch8BBu515t4wp9ZmgVfVhn9EBpw==
 
 estraverse@^5.1.0, estraverse@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-5.2.0.tgz#307df42547e6cc7324d3cf03c155d5cdb8c53880"
-  integrity sha512-BxbNGGNm0RyRYvUdHpIwv9IWzeM9XClbOxwoATuFdOE7ZE6wHL+HQ5T8hoPM+zHvmKzzsEqhgy0GrQ5X13afiQ==
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-5.3.0.tgz#2eea5290702f26ab8fe5370370ff86c965d21123"
+  integrity sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==
 
 esutils@^2.0.2:
   version "2.0.3"
@@ -2484,9 +2484,9 @@ last-run@^1.1.0:
     es6-weak-map "^2.0.1"
 
 lazystream@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/lazystream/-/lazystream-1.0.0.tgz#f6995fe0f820392f61396be89462407bb77168e4"
-  integrity sha1-9plf4PggOS9hOWvolGJAe7dxaOQ=
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/lazystream/-/lazystream-1.0.1.tgz#494c831062f1f9408251ec44db1cba29242a2638"
+  integrity sha512-b94GiNHQNy6JNTrt5w6zNyffMrNkXZb3KTkCZJb2V1xaEGCk093vkZ2jk3tpaeP33/OiXC+WvK9AxUebnf5nbw==
   dependencies:
     readable-stream "^2.0.5"
 
