@@ -4,7 +4,7 @@
  * Version: 2.0.1
  * Github: https://github.com/WarenGonzaga/fork-corner
  * Licensed under The MIT License: http://opensource.org/licenses/MIT
- * Copyright (c) 2021 Waren Gonzaga
+ * Copyright (c) 2026 Waren Gonzaga
  *
  * Facebook: @warengonzagaofficial
  * Twitter: @warengonzaga

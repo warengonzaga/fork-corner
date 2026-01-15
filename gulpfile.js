@@ -9,11 +9,11 @@ const {
     src,
     dest,
     watch }     = require('gulp'),
-    sass        = require('gulp-sass'),
+    sass        = require('gulp-sass')(require('sass')),
     sassLint    = require('gulp-sass-lint'),
     uglify      = require('gulp-uglify-es').default,
     eslint      = require('gulp-eslint'),
-    pipeline    = require('readable-stream').pipeline,
+    { pipeline } = require('stream'),
     header      = require('gulp-header'),
     rename      = require('gulp-rename'),
     clean       = require('gulp-clean'),
@@ -47,8 +47,8 @@ const data = {
     ].join('\n'),
 };
 
-// setup sass compiler
-sass.compiler = require('node-sass');
+// sass (Dart Sass) is now used by default in gulp-sass v6+
+// No need to set sass.compiler anymore
 
 // lint css
 function lintCSS() {
@@ -85,14 +85,15 @@ function minifyCSS() {
 }
 
 // minify js
-function minifyJS() {
+function minifyJS(cb) {
     return pipeline(
         src(path.buildJS),
         rename({
             suffix: '.min'
         }),
         uglify(),
-        dest(path.dist));
+        dest(path.dist),
+        cb);
 }
 
 // add copyright label
